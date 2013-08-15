@@ -31,7 +31,7 @@ if(ay.arrowScrollOnHover){ax.bind("mouseover.jsp",aD(-1,0,ax));x.bind("mouseover
  * 
  * @author Yair Even Or
  * @version 1.0.0 (March 20, 2013)
- */
+ 
 (function($){ 
     //if( 'ontouchstart' in document.documentElement )
     $.event.special.swipe = {
@@ -85,7 +85,7 @@ if(ay.arrowScrollOnHover){ax.bind("mouseover.jsp",aD(-1,0,ax));x.bind("mouseover
         }
     };
 })(window.jQuery || window.Zepto);
-
+*/
 
 
 
