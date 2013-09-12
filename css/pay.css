@@ -89,7 +89,7 @@
 		cursor: pointer;
 		height: 40px;
 		-webkit-appearance: none;
-		border:0;
+		border-radius:0;
 	}
 
 
@@ -241,7 +241,7 @@
 			border: 0;
 			height: 30px;
 			-webkit-appearance: none;
-			border:0;
+			border-radius:0;
 		}
 			.subscribeInput input[type="submit"]#femaleButton{
 				background: #8b8b8b url(../images/female_subscribe_button.gif) no-repeat 15px 8px;
@@ -308,7 +308,7 @@
 				width: 230px;
 				margin-top: 2px;
 				-webkit-appearance: none;
-				border:0;
+				border-radius:0;
 			}
 			.cardContent .payLeftColumn .column p{
 				padding-right: 7px;
@@ -363,7 +363,7 @@
 			margin-right: 5px;
 			margin-top: 2px;
 			-webkit-appearance: none;
-			border:0;
+			border-radius:0;
 		}
 	.epigraph,
 	.garantie{
@@ -429,7 +429,7 @@
 				margin-left: 5px;
 				margin-top: 10px;
 				-webkit-appearance: none;
-				border:0;
+				border-radius:0;
 			}
 			.subscribeInput input[type="submit"]#femaleButton {
 				background-position: 11px 8px;
@@ -568,7 +568,7 @@
 				margin: 0 auto;
 				display: block;
 				-webkit-appearance: none;
-				border:0;
+				border-radius:0;
 			}
 		.cardContent .payLeftColumn .summary p{
 			width: 240px;
@@ -585,7 +585,7 @@
 			margin-top: 15px;
 			padding-right: 6px;
 			-webkit-appearance: none;
-			border:0;
+			border-radius:0;
 		}
 		.garantie{
 			float: none;
