@@ -24,6 +24,7 @@
 		height: 31px;
 		margin-top: 2px;
 		 -webkit-appearance: none;
+		border-radius: 0;
 	}
 	.searchPage .searchInput input[type="submit"]{
 		width: 35px;
@@ -35,6 +36,7 @@
 		margin-left: -5px;
 		cursor: pointer;
 		 -webkit-appearance: none;
+		border-radius: 0;
 	
 	}
 .searchResult{
