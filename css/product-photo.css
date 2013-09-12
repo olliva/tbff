@@ -1,0 +1,96 @@
+﻿.product-photo
+                {
+                    position: relative;
+                    float: left;
+                    margin: 25px 50px 10px 0;
+                    padding: 0 1px 30px 1px;
+                    width: 310px;
+                }
+        .product-photo>div
+                        {
+                            margin: 0 auto;
+                            overflow: hidden;
+                            width: 100%;
+                            box-shadow: 0 1px 2px rgba(0,0,0,.2);
+                        }               
+                .product-photo .list
+                                {
+                                    position: relative;
+                                    white-space: nowrap;
+                                }           
+                        .product-photo .list li
+                                        {
+                                            display: inline-block;
+                                            position: relative;
+                                            width: 100%;
+                                            vertical-align: top;
+                                            white-space: normal;
+                                        }
+                        .product-photo .list img
+                                        {
+                                            display: block;
+                                            max-width: 100%;
+                                            min-height: 468px;
+                                        }             
+        .product-photo .plus
+                        {
+                            position: absolute;
+                            z-index: 20;
+                            right: 10px;
+                            bottom: 40px;
+                            width: 26px;
+                            height: 26px;
+                            padding-bottom: 3px;
+                            border: 1px solid #ccc;
+                            border-radius: 3px;
+                            background-color: #f8f8f8;
+                            text-align: center;
+                            font: bold 18px Tahoma, Arial, sans-serif;
+                            line-height: 1em;
+                        }             
+		        .product-photo .plus:after
+		                        {
+		                        	content: "";
+		                            position: absolute;
+		                            top: -10px;
+		                            right: -10px;
+		                            bottom: -10px;
+		                            left: -10px;
+		                        }                                     
+
+
+@media screen and (max-width: 767px) 
+				{
+					.product-photo
+									{
+										width: 240px;
+										margin-right: 47px;
+									}					
+                    .product-photo .list img
+                                    {
+                                        min-height: 260px;
+                                    }                                                       
+				}												
+
+@media screen and (max-width: 599px) 
+				{
+					.product-photo
+									{
+										position: absolute;
+										top: 50px;
+										left: 0;
+										width: 320px;
+										margin-right: 0;
+										padding-left: 0;
+										padding-right: 0;
+									}					
+							.product-photo>div
+							                        {
+							                        	width: 240px;
+						                            }               
+							.product-photo .plus
+							                        {
+							                        	right: 50px;
+						                            }               		                            
+
+				}														                                                

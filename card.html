@@ -1,0 +1,994 @@
+﻿<!DOCTYPE html> 
+<html>
+<head>
+	<title> </title>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+    <meta id="viewport" name="viewport" content="initial-scale=1.0">
+	<link rel="stylesheet" href="css/all.css">
+
+
+
+
+
+<link rel="stylesheet" href="css/pay.css"/>
+
+
+    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->    
+	<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen, projection" /><![endif]-->	
+</head>
+<body>
+
+    <div class="logo">
+        <a href="index.html"></a>
+    </div>
+
+    <nav class="nav catalog-nav">
+        <ul class="icons">
+            <li><a href="#" class="ico ico-login"></a></li>
+            <li><a href="#" class="ico ico-search"></a></li>
+            <li><a href="#" class="ico ico-cart active" data-popup-open="cart-popup"><span>7</span></a></li>
+        </ul>
+
+        <button class="menu-switcher"><span>фильтры</span></button>
+        <div class="nav-overlay"></div>
+        <div class="main-menu-container nav-hidden">
+            <button class="menu-filter-switcher">фильтры</button>                
+            <form action="#" class="search">
+                <fieldset>
+                    <input type="text">
+                    <button></button>
+                </fieldset>
+            </form>                        
+            <div class="main-menu">
+                <ul>
+                    <li><a href="#">Новинки</a></li>
+                    <li><a href="#">Одежда</a></li>
+                    <li><a href="#">Обувь</a></li>
+                    <li><a href="#">Аксессуары</a></li>
+                    <li><a href="#">Винтаж Beyond Retro</a></li>
+                    <li><a href="#">Супермаркет</a></li>
+                    <li><a href="#">Распродажа</a></li>
+                    <li><a href="#" class="login-link">Войти</a></li>
+                    <li><a href="tel:+74952212919" class="tel-link">+7 495 221 29 19</a></li>
+                    <li><a href="#" class="full-site-link">Полная версия сайта</a></li>
+                </ul>                
+            </div>                
+        </div>                    
+        <div class="main-menu-container">           
+            <button class="menu-filter-switcher">меню</button>                
+            <div class="filter-scroll">
+
+                <div class="catalog-filter cf-category active">
+                    <div class="expand">
+                        <span class="name">Категории</span>
+                        <ul class="selected selected-text">
+
+                        </ul>
+                    </div>
+                    <ul class="list">
+                        <li><a href="#">Жакеты и пиджаки</a></li>
+                        <li>
+                            <a href="#">Верхняя одежда</a>
+                            <ul>
+                                <li>
+                                    <a href="#">Пальто и плащи</a>
+                                    <ul>
+                                        <li><a href="#">Пальто</a></li>
+                                        <li><a href="#">Плащи</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Куртки и парки</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Нижнее белье</a></li>
+                        <li class="more"><a href="#">Еще..</a></li>
+                        <li><a href="#">Джинсы</a></li>
+                        <li><a href="#">Рубашки и блузы</a></li>
+                        <li><a href="#">Джемпера и кардиганы</a></li>
+                        <li><a href="#">Куртки и ветровки</a></li>
+                        <li><a href="#">Сумки и кошельки</a></li>
+                        <li><a href="#">Платья и сарафаны</a></li>
+                        <li><a href="#">Брюки и чиносы</a></li>
+                        <li><a href="#">Пальто и плащи</a></li>
+                        <li class="less"><a href="#">Свернуть</a></li>
+                    </ul>
+                </div>                  
+
+                <div class="catalog-filter cf-size">
+                    <div class="expand">
+                        <span class="name">Размер</span>
+                        <ul class="selected selected-text">
+
+                        </ul>
+                    </div>
+                    <ul class="list size-list">
+                        <li><a href="#">40</a></li>
+                        <li><a href="#">40/42</a></li>
+                        <li><a href="#">42</a></li>
+                        <li><a href="#">42/44</a></li>
+                        <li><a href="#">44</a></li>
+                        <li><a href="#">44/46</a></li>
+                        <li><a href="#">46</a></li>
+                        <li><a href="#">46/48</a></li>
+                        <li><a href="#">48</a></li>
+                        <li><a href="#">48/50</a></li>
+                        <li><a href="#">50/52</a></li>
+                    </ul>
+                </div>                     
+
+                <div class="catalog-filter cf-color">
+                    <div class="expand">
+                        <span class="name">Цвет</span>
+                        <ul class="selected">
+                            
+                        </ul>
+                    </div>
+                    <ul class="list color-list">
+                        <li><a href="#" style="background-color: #fff;"></a></li>
+                        <li><a href="#" style="background-color: #ababab;"></a></li>
+                        <li><a href="#" style="background-color: #3b3b3b;"></a></li>
+                        <li><a href="#" style="background-color: #000;"></a></li>
+                        <li><a href="#" style="background-color: #ffde27;"></a></li>
+                        <li><a href="#" style="background-color: #ff8400;"></a></li>
+                        <li><a href="#" style="background-color: #f63333;"></a></li>
+                        <li><a href="#" style="background-color: #e256bc;"></a></li>
+                        <li><a href="#" style="background-color: #6c41da;"></a></li>
+                        <li><a href="#" style="background-color: #2866aa;"></a></li>
+                        <li><a href="#" style="background-color: #14b8ba;"></a></li>
+                        <li><a href="#" style="background-color: #56ba14;"></a></li>
+                    </ul>
+                </div>                                                                                    
+            </div>     
+
+        </div>
+    </nav>
+
+
+	<div class="page">
+
+       <div class="container">
+        <div class="cardContent">
+            <div class="payHeader">
+                <h1><nobr>оформление заказа</nobr></h1>
+                <div class="block-header">
+                    <span>ваш заказ</span>
+                </div>
+                <h2>успешно создан</h2>
+            </div>
+            <div class="clearfix contentInColumns">
+                <div class="payLeftColumn">
+                    <div class="clearfix">
+                        <div class="column">
+                            <h3>Ему присвоен номер:</h3>
+                            <p class="payLines">111111</p>
+                        </div>
+                        <div class="column secondColumn">
+                            <h3>Вы выбрали способ оплаты</h3>
+                            <p class="payWay payLines">банковской картой</p>
+                        </div>
+                    </div>
+                    <input type="submit" class="topPayForMobile"value="оплатить заказ"/>
+                </div>
+
+                <div class="orderRightColumn">
+                    <h3>Состав заказа:</h3>
+                    <div class="orderCard clearfix">
+                        <img src="images/order1.jpg" width="177" height="267" alt=""/>
+                        <div class="cardDescription">
+                            <h3>Платье Champagne &amp; Strawberry</h3>
+                            <p><span>цена</span> <b>5 890 Р</b></p>
+                            <p><span>цвет</span> Белый</p>
+                            <p><span>размер</span> 42/44</p>
+                        </div>
+                    </div>
+                    <div class="orderCard clearfix">
+                        <img src="images/order2.jpg" width="177" height="267" alt=""/>
+                        <div class="cardDescription">
+                            <h3>Платье Champagne &amp; Strawberry</h3>
+                            <p><span>цена</span> <b>2 890 Р</b></p>
+                            <p><span>цвет</span> Разноцветное</p>
+                            <p><span>размер</span> 44/46</p>
+                        </div>
+                    </div>
+                    <div class="orderCard clearfix">
+                        <img src="images/order3.jpg" width="177" height="267" alt=""/>
+                        <div class="cardDescription">
+                            <h3>Платье Champagne &amp; Strawberry</h3>
+                            <p><span>цена</span> <b>3 890 Р</b></p>
+                            <p><span>цвет</span> Желтый</p>
+                            <p><span>размер</span> 44/46</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="payLeftColumn">
+                    <div class="summary clearfix">
+                        <p>
+                            Итого: <span>12 760 Р</span>
+                        </p>
+                        <form action="">
+                            <input type="submit" value="оплатить заказ".>
+                        </form>
+                    </div>
+                    <div class="clearfix">
+                        <div class="garantie">
+                            <p class="reliablePurchase">Надежная покупка</p>
+                            <p class="garant">100% гарантия безопасности платежа</p>
+                        </div>
+                        <div class="epigraph">
+                            А&nbsp;пока мы&nbsp;собираем и&nbsp;передаем в&nbsp;доставку Ваш заказ, Вы&nbsp;можете <a href="/">почитать наш Блог</a> или посмотреть <a href="/">свежий Lookbook</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <footer class="footer">
+                <div class="subscribeInput clearfix smallSizePage">
+                    <div class="subscribeInputCont">
+                        <form action="">
+                            <label for="">Узнавайте первыми о скидках и спецпредложениях:</label>
+                            <input type="text" value="Ваш E-mail"/>
+                            <input type="submit" value="я девушка" id="femaleButton"/>
+                            <input type="submit" value="я мужчина" id="maleButton"/>
+                        </form>
+                    </div>
+                </div>
+                <div class="social">
+                    <div class="block-header">
+                        <span>Присоединяйтесь</span>
+                    </div>
+                    <div class="social-expand">Присоединяйтесь к нам <br>в соцсетях</div>
+                    <ul>
+                        <li><a href="#" class="ico-fb"></a></li>
+                        <li><a href="#" class="ico-vk"></a></li>
+                        <li><a href="#" class="ico-lj"></a></li>
+                        <li><a href="#" class="ico-tw"></a></li>
+                        <li><a href="#" class="ico-ig"></a></li>
+                        <li><a href="#" class="ico-mail"></a></li>
+                    </ul>
+                </div>
+                <div class="subscribeInput clearfix fullSizePage">
+                    <div class="subscribeInputCont">
+                        <form action="">
+                            <label for="">Узнавайте первыми о скидках и спецпредложениях:</label>
+                            <input type="text" value="Ваш E-mail"/>
+                            <input type="submit" value="я девушка" id="femaleButton"/>
+                            <input type="submit" value="я мужчина" id="maleButton"/>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="footer-menu-expand">Сервис</div>
+                <ul class="footer-menu">
+                    <li>
+                        <span>Сервис</span>
+                        <ul>
+                            <li><a href="#">Таблица размеров</a></li>
+                            <li><a href="#">Условия доставки</a></li>
+                            <li><a href="#">Условия оплаты</a></li>
+                            <li><a href="#">Условия возврата</a></li>
+                            <li><a href="#">Условия использования скидок</a></li>
+                            <li><a href="#">Конфиденциальность</a></li>                            
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Реквизиты</a></li>                            
+                        </ul>
+                    </li>
+                </ul>
+
+                <a href="#" class="full-site-link">Полная версия сайта</a>
+
+                <div class="copyright">
+                    <span>Мобильная версия — <a href="#">Greensight</a></span>
+                    <span>© 2013, <a href="http://www.trendsbrands.ru">www.trendsbrands.ru</a></span>
+                </div>
+            </footer>            
+
+        </div>
+
+	</div>
+
+        <div class="overlay product-overlay"></div>
+
+        <div class="popup product" id="product">
+
+            <div class="breadcrumbs">
+                <div class="cart-block">
+                    <a href="#" class="ico ico-product-cart"></a>
+                </div>
+                <div class="breadcrumbs-links">                
+                    <button class="back-to popup-close">в каталог</button>
+                    <a href="#">Главная</a>
+                    <a href="#">Каталог</a>
+                    <a href="#">Женское</a>
+                    <a href="#">Одежда</a>
+                    <a href="#">Платья и сарафаны</a>
+                </div>
+            </div>                
+
+            <div class="product-header-block">
+                <h1 class="product-header">Платье Champagne &amp; Strawberry</h1>
+
+                <div class="price-block">
+                    2 290 Р
+                    <span class="old">4 590 Р</span>
+                </div>
+
+                <div class="product-likes">
+                    <img src="tmp/like-tw.png" alt="">
+                    <img src="tmp/like-fb.png" alt="">
+                    <img src="tmp/like-vk.png" alt="">
+                </div>                
+            </div>
+
+            <div class="info">
+
+                <div class="product-photo">
+                    <div>
+                        <ul class="list">
+                            <li><img src="tmp/product-1.jpg" data-big-img="tmp/product-1.jpg" alt=""></li>
+                            <li><img src="tmp/product-2.jpg" data-big-img="tmp/product-2.jpg" alt=""></li>
+                            <li><img src="tmp/product-3.jpg" data-big-img="tmp/product-3.jpg" alt=""></li>
+                            <li><img src="tmp/product-4.jpg" data-big-img="tmp/product-4.jpg" alt=""></li>
+                        </ul>                    
+                    </div>
+                    <button class="plus">+</button>
+                </div>           
+
+                <div class="info-size">
+                    <h5>Размер</h5>
+                    <ul class="list size-list">
+                        <li><a href="#">40</a></li>
+                        <li><a href="#">40/42</a></li>
+                        <li><a href="#">42</a></li>
+                        <li class="active"><a href="#">42/44</a></li>
+                        <li><a href="#">44</a></li>
+                    </ul>               
+                    <a href="#" class="spec-link">Таблица размеров</a>                     
+                </div>
+
+                <div class="info-color">
+                    <h5>Цвет</h5>
+                    <ul class="list color-list">
+                        <li><a href="#" style="background-color: #fff;"></a></li>
+                        <li class="active"><a href="#" style="background-color: #ababab;"></a></li>
+                        <li><a href="#"style="background-image: url(tmp/complex-color.png);"></a></li>
+                        <li><a href="#" style="background-color: #d00;"></a></li>
+                    </ul>                    
+                </div>
+
+                <div class="button-block button-block-1">
+                    <a href="#" class="button-buy">Купить</a>
+                </div>
+
+                <div class="descr">
+                    <ul class="tabs">
+                        <li class="active"><a href="#"><span>Описание</span></a></li>
+                        <li><a href="#"><span>О бренде</span></a></li>
+                    </ul>                
+                    <ul class="tabs-content">
+                        <li class="active">
+                            <p>Белое шелковое платье длины макси от бренда Champagne &amp; Strawberry. Сделано из легкой белой ткани в цветок. Верхняя часть выполнена в виде целого лоскута ткани с небольшим разрезом посередине и с завязками вокруг шеи. Спина остается открытой.</p>
+                            <p>Белое шелковое платье длины макси от бренда Champagne &amp; Strawberry. Сделано из легкой белой ткани в цветок. </p>
+                        </li>
+                        <li>
+                            <p>Текст о бренде. Белое шелковое платье длины макси от бренда Champagne &amp; Strawberry. Сделано из легкой белой ткани в цветок. Верхняя часть выполнена в виде целого лоскута ткани с небольшим разрезом посередине и с завязками вокруг шеи. Спина остается открытой.</p>
+                        </li>
+                    </ul>                                                    
+                </div>
+
+                <div class="button-block button-block-2">
+                    <div class="item-added-to-cart">
+                        <span class="h">товар добавлен</span>
+                        <a href="#" class="button-next" data-popup-open="cart-popup">Перейти в корзину</a>    
+                    </div>
+                    <a href="#" class="button-buy">Купить</a>
+                    <span class="not-available">товара нет в наличии</span>
+                </div>                
+
+            </div>
+
+                <div class="additional">
+
+                    <div class="history">
+                        <div class="block-header">
+                            <span>вы уже смотрели</span>
+                        </div>
+                        <div class="history-list">
+                            <div>
+                                <ul class="list">
+                                    <li class="catalog-item">
+                                        <a href="#">
+                                            <span class="photo">
+                                                <img src="tmp/rec-1.jpg" alt="">
+                                            </span>
+                                            <span class="name">Платье Champagne &amp; Strawberry</span>
+                                            <span class="price">5 760 Р</span>                      
+
+                                        </a>
+                                    </li>
+                                    <li class="catalog-item">
+                                        <a href="#">
+                                            <span class="photo">
+                                                <img src="tmp/rec-4.jpg" alt="">
+                                            </span>
+                                            <span class="name">Платье Vodka &amp; Sausage</span>
+                                            <span class="price">2 760 Р</span>                      
+                                        </a>
+                                    </li>                                
+                                    <li class="catalog-item">
+                                        <a href="#">
+                                            <span class="photo">
+                                                <img src="tmp/rec-1.jpg" alt="">
+                                            </span>
+                                            <span class="name">Платье Champagne &amp; Strawberry</span>
+                                            <span class="price">5 760 Р</span>                      
+                                        </a>
+                                    </li>
+                                    <li class="catalog-item">
+                                        <a href="#">
+                                            <span class="photo">
+                                                <img src="tmp/rec-4.jpg" alt="">
+                                            </span>
+                                            <span class="name">Платье Vodka &amp; Sausage</span>
+                                            <span class="price">2 760 Р</span>                      
+                                        </a>
+                                    </li>                                                                
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="#" class="call-to-action">Посмотри все</a>
+                    </div>
+
+                    <div class="same-look">
+                        <div class="block-header">
+                            <span>Также в этом луке</span>
+                        </div>                        
+                        <div class="same-look-list">
+                            <div>
+                                <ul class="list">
+                                    <li class="catalog-item">
+                                        <a href="#">
+                                            <span class="photo">
+                                                <img src="tmp/rec-1.jpg" alt="">
+                                            </span>
+                                            <span class="name">Платье Что-то &amp; Чем-то</span>
+                                            <span class="price">125 760 Р</span>                      
+                                        </a>
+                                    </li>
+                                    <li class="catalog-item">
+                                        <a href="#">
+                                            <span class="photo">
+                                                <img src="tmp/rec-4.jpg" alt="">
+                                            </span>
+                                            <span class="name">Платье Vodka &amp; Sausage</span>
+                                            <span class="price">2 760 Р</span>                      
+                                        </a>
+                                    </li>                                
+                                    <li class="catalog-item">
+                                        <a href="#">
+                                            <span class="photo">
+                                                <img src="tmp/rec-1.jpg" alt="">
+                                            </span>
+                                            <span class="name">Платье Champagne &amp; Strawberry</span>
+                                            <span class="price">5 760 Р</span>                      
+                                        </a>
+                                    </li>
+                                    <li class="catalog-item">
+                                        <a href="#">
+                                            <span class="photo">
+                                                <img src="tmp/rec-4.jpg" alt="">
+                                            </span>
+                                            <span class="name">Платье Vodka &amp; Sausage</span>
+                                            <span class="price">2 760 Р</span>                      
+                                        </a>
+                                    </li>                                                                
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="#" class="call-to-action">Посмотри все</a>
+                    </div>
+                </div>
+
+            <div class="inner-overlay"></div>
+            <div class="popup inner-popup cart-added" id="item-added-to-cart-full">
+
+                <button class="back-to popup-close"><span>назад</span></button>
+                <div class="h1">Товар добавлен</div>
+
+                <div class="item-info">
+                    <div class="photo">
+                        <img src="tmp/cart-item-added.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            Платье Champagne &amp; Strawberry
+                        </div>
+                        <ul class="dl">
+                            <li>
+                                <span class="dt">цена</span>
+                                <span class="dd"><strong>2 890 Р</strong></span>
+                            </li>
+                            <li>
+                                <span class="dt">цвет</span>
+                                <span class="dd">Разноцветное</span>
+                            </li>
+                            <li>
+                                <span class="dt">Размер</span>
+                                <span class="dd">44/46</span>
+                            </li>
+                        </ul>
+                        <div class="reserveTime clearfix addPopup">
+                            <div class="reserve_yellow">
+                                В резерве для вас
+                                <input type="text" id="basket_265992" value="14:10">
+                            </div>
+                        </div>
+                        <button class="button-next" data-popup-open="cart-popup">перейти в корзину</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="overlay"></div>
+
+
+        <div class="overlay cart-overlay"></div>
+
+        <div class="popup cart" id="cart-popup">
+
+            <button class="back-to popup-close"><span>назад</span></button>
+            
+            <div class="h1">Корзина</div>
+
+            <ul class="cart-list">
+                <li>
+                    <span class="photo">
+                        <img src="tmp/rec-1.jpg" alt="">
+                    </span>
+                    <div class="info">
+                        <div class="name">Платье Champagne &amp; Strawberry</div>
+                        <dl>
+                            <dt>Цена</dt>
+                            <dd class="price">5 890 Р</dd>
+                            <dt>Цвет</dt>
+                            <dd>Белый</dd>
+                            <dt class="cart-item-size">Размер</dt>
+                            <dd>
+                                <span class="static">42/44</span>
+                                <ul class="editable size-list">
+                                    <li><a href="#">40/42</a></li>
+                                    <li><a href="#">42/44</a></li>
+                                    <li><a href="#">44/46</a></li>
+                                    <li><a href="#">46/48</a></li>
+                                    <li><a href="#">50</a></li>
+                                </ul>
+                            </dd>
+                            <dt class="cart-item-count">Количество</dt>
+                            <dd>
+                                <span class="static">2</span>
+                                <select class="editable">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </dd>                            
+                        </dl>
+                        <div class="reserveTime clearfix">
+                            <div class="reserve_yellow">
+                                В резерве для вас
+                                <input type="text" id="basket_265992" value="14:10">
+                            </div>
+                        </div>
+                        <div class="controls static">
+                            <button class="button">отложить</button>
+                            <button class="button item-edit-start">редактировать</button>
+                        </div>
+                        <div class="controls editable">
+                            <button class="button-next item-edit-save">сохранить</button>
+                            <button class="button item-edit-cancel">отменить</button>
+                        </div>                        
+                    </div>
+                    <button class="del"></button> 
+                </li>
+                <li>
+                    <span class="photo">
+                        <img src="tmp/rec-4.jpg" alt="">
+                    </span>
+                    <div class="info">
+                        <div class="name">Платье Cognac &amp; Lemon</div>
+                        <dl>
+                            <dt>Цена</dt>
+                            <dd class="price">25 890 Р</dd>
+                            <dt>Цвет</dt>
+                            <dd>Разнокалиберно-длинно-крапчатый</dd>
+                            <dt class="cart-item-size">Размер</dt>
+                            <dd>
+                                <span class="static">42/44</span>
+                                <span class="static">44/46</span>
+                                <ul class="editable size-list">
+                                    <li><a href="#">40/42</a></li>
+                                    <li><a href="#">42/44</a></li>
+                                    <li><a href="#">44/46</a></li>
+                                    <li><a href="#">46/48</a></li>
+                                    <li><a href="#">50</a></li>
+                                </ul>
+                            </dd>
+                            <dt class="cart-item-count">Количество</dt>
+                            <dd>
+                                <span class="static">1</span>
+                                <select class="editable">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </dd>                            
+                        </dl>
+                        <div class="askForReserveTime">
+                            <img src="images/reserve_time.png" border="0" alt="Резерв"/>
+                            <span class="reserve_underline" basket_id="265994" product_id="76970" quantity="1" fuser_id="30422540">Повторный резерв</span>
+                        </div>
+                        <div class="controls static">
+                            <button class="button">отложить</button>
+                            <button class="button item-edit-start">редактировать</button>
+                        </div>
+                        <div class="controls editable">
+                            <button class="button-next item-edit-save">сохранить</button>
+                            <button class="button item-edit-cancel">отменить</button>
+                        </div>                        
+                    </div>
+                    <button class="del"></button> 
+                </li>                
+            </ul>
+
+            <form action="#" class="discount-code">
+                <fieldset>
+                    <label for="code">Введите код на скидку:</label>
+                    <input type="text" name="code" id="code">
+                    <button class="button">ОК</button>
+                </fieldset>
+            </form>
+
+            <div class="cart-footer">
+                <dl>
+                    <dt>Подытог</dt>
+                    <dd>12 670 Р</dd>
+                    <dt>Скидка</dt>
+                    <dd>0%</dd>
+                    <dt>Доставка</dt>
+                    <dd>90 Р</dd>
+                    <dt class="total">Итого</dt>
+                    <dd class="total">12 760 Р</dd>
+                </dl>
+                <button class="button-buy" data-popup-open="cart-step-1-popup">оформить заказ</button>
+                <button class="button" data-popup-open="cart-one-click-order">заказ в 1 клик</button>
+            </div>
+
+            <div class="inner-overlay"></div>
+            <div class="popup inner-popup one-click-order" id="cart-one-click-order">
+                <button class="back-to popup-close"><span>назад</span></button>
+                <div class="h1">Заказ в 1 клик</div>
+                <form action="#" class="cart-form">
+                    <fieldset>
+                        <div class="form-row">
+                            <div class="form-label">
+                                <label for="one-click-name" class="required">Имя</label>
+                            </div>
+                            <div class="form-field">
+                                <input type="text" name="" id="one-click-name">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-label">
+                                <label for="one-click-city" class="required">Город</label>
+                            </div>
+                            <div class="form-field">
+                                <input type="text" name="" id="one-click-city">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-label">
+                                <label for="one-click-tel" class="required">Телефон</label>
+                            </div>
+                            <div class="form-field">
+                                <input type="text" name="" id="one-click-tel">
+                            </div>
+                        </div>                                                
+                        <div class="form-row">
+                            <div class="form-field">
+                                <button class="button-next">ОК</button>
+                            </div>
+                        </div>                                                                        
+                    </fieldset>
+                </form>
+            </div>
+
+
+        </div>
+
+
+        <div class="popup cart cart-steps" id="cart-step-1-popup">
+
+            <button class="back-to" data-popup-open="cart-popup"><span>назад</span></button>
+            
+            <div class="h1"><span>Шаг 1/3.</span> Авторизация</div>
+
+            <ul class="tabs">
+                <li><a href="#">Заказываю впервые</a></li>
+                <li class="active"><a href="#">Я постоянный клиент</a></li>
+            </ul>                
+            <ul class="tabs-content">
+                <li>
+                    <form action="#" class="cart-form cart-step-1">
+                        <fieldset>
+                            <div class="form-row">
+                                <div class="form-label">
+                                    <label for="email" class="required">E-mail:</label>
+                                </div>
+                                <div class="form-field">
+                                    <input type="text" name="" id="email">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-label">
+                                    <label for="password" class="required">Пароль:</label>
+                                </div>
+                                <div class="form-field">
+                                    <input type="password" name="" id="password">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-label">
+                                    <label for="firstname" class="required">Имя</label>
+                                </div>
+                                <div class="form-field">
+                                    <input type="text" name="" id="firstname">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-label">
+                                    <label for="surname">Фамилия</label>
+                                </div>
+                                <div class="form-field">
+                                    <input type="text" name="" id="surname">
+                                </div>
+                            </div>                            
+                            <div class="form-row">
+                                <div class="form-label">
+                                    <label for="tel" class="required">Телефон</label>
+                                </div>
+                                <div class="form-field">
+                                    <input type="text" name="" id="tel">
+                                </div>
+                            </div>                            
+                            <div class="form-row">
+                                <div class="form-field control-field">
+                                    <button class="button-next" data-popup-open="cart-step-2-popup">продолжить</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </li>
+                <li class="active">
+                    <form action="#" class="cart-form cart-step-1">
+                        <fieldset>
+                            <div class="form-row">
+                                <div class="form-label">
+                                    <label for="email-2" class="required">E-mail:</label>
+                                </div>
+                                <div class="form-field">
+                                    <input type="text" name="" id="email-2">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-label">
+                                    <label for="password-2" class="required">Пароль:</label>
+                                </div>
+                                <div class="form-field">
+                                    <input type="password" name="" id="password-2">
+                                    <div class="forget-pass">
+                                        <a href="#">забыли пароль?</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-field control-field">
+                                    <button class="button-next" data-popup-open="cart-step-2-popup">продолжить</button>
+                                </div>
+                            </div>                                                                        
+                        </fieldset>
+                    </form>
+                </li>
+            </ul>                                                    
+
+        </div>
+
+
+        <div class="popup cart cart-steps" id="cart-step-2-popup">
+
+            <button class="back-to" data-popup-open="cart-step-1-popup"><span>назад</span></button>
+            
+            <div class="h1"><span>Шаг 2/3.</span> Способы доставки</div>
+
+                    <form action="#" class="cart-form cart-step-2">
+                        <fieldset>
+                            <div class="form-row">
+                                <div class="form-label">
+                                    <label for="city" class="required">Город</label>
+                                </div>
+                                <div class="form-field">
+                                    <select name="" id="city" class="medium">
+                                        <option value="">Москва</option>
+                                        <option value="">Не Москва</option>
+                                    </select>
+                                    <span class="city-or-index">или</span>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-label">
+                                    <label for="index">Индекс</label>
+                                </div>
+                                <div class="form-field">
+                                    <input type="text" name="" id="index" class="small">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-label">
+                                    <label for="address" class="required">Адрес</label>
+                                </div>
+                                <div class="form-field">
+                                    <input type="text" name="" id="address" class="error">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-label">
+                                    <label for="note">Примечание</label>
+                                </div>
+                                <div class="form-field textarea-field">
+                                    <textarea name="" id="note" cols="30" rows="2"></textarea>
+                                </div>
+                            </div>    
+                            <div class="form-row">
+                                <div class="form-label">
+                                    <label for="index" class="required">День</label>
+                                </div>
+                                <div class="form-field">
+                                    <input type="text" name="" id="index" class="small" value="22.04.2013">
+                                    <div class="cart-delivery-time">
+                                        <label for="">Время</label>
+                                        <select name="" id="" class="small">
+                                            <option value="">9:00 - 12:00</option>
+                                            <option value="">12:00 - 16:00</option>
+                                            <option value="">16:00 - 20:00</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+                            </div>                                                                                
+                            <div class="form-row">
+                                <div class="form-field control-field">
+                                    <button class="button" data-block-open="cart-step-25">ОК</button>
+                                    <span class="error-msg">Данные некорректны</span>
+                                </div>
+                            </div>                                                                        
+                        </fieldset>
+                    </form>
+
+                    <form action="#" class="cart-form cart-step-25" id="cart-step-25">
+                        <fieldset>
+                            <div class="form-row">
+                                <div class="form-label">
+                                    Вы выбрали:
+                                </div>
+                                <div class="form-field">
+                                    <p><strong>г.Москва</strong></p>
+                                    <p>
+                                        График доставки: <br>
+                                        пн-сб с 9.00 до 21.00. <br>
+                                        Ближайшая возможная доставка в Ваш город:  <br>
+                                        - при заказе до 16.00 - 5 марта <br>
+                                        - после 16.00 - 6 марта  <br>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-label">
+                                    Стоимость
+                                </div>
+                                <div class="form-field">
+                                    190 Р
+                                    <a href="#" class="spec-link">Снизить</a>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-field control-field">
+                                    <button class="button-next" data-popup-open="cart-step-3-popup">Продолжить</button>
+                                </div>
+                            </div>                                                                        
+                        </fieldset>
+                    </form>                    
+
+        </div>
+
+
+        <div class="popup cart cart-steps" id="cart-step-3-popup">
+
+            <button class="back-to" data-popup-open="cart-step-2-popup"><span>назад</span></button>
+            
+            <div class="h1"><span>Шаг 3/3.</span> Способы оплаты</div>
+
+            <form action="#" class="cart-form cart-step-3">
+                <ul class="tabs tabs-type-2">
+                    <li class="active"><a href="#">Нал. курьеру</a></li>
+                    <li><a href="#">Qiwi кошелек</a></li>
+                    <li><a href="#">Банк. картой</a></li>
+                </ul>
+                <ul class="tabs-content">
+                    <li class="active">
+                        В случае курьерской доставки вы всегда можете оплатить заказ наличными курьеру, предварительно просмотрев и примерив вещи, если вам это будет удобно. При этом вы оплачиваете только те товары, которые приобретаете. Всё, что вам по каким-то причинам не подошло, вы можете вернуть курьеру.                         
+                    </li>
+                    <li>
+                        Текст про киви-кошелек
+                    </li>
+                    <li>
+                        Текст про банковскую карту
+                    </li>
+                </ul>
+                <a href="#" class="spec-link" data-block-open="mnogo-ru-card" data-hide-it="true"><span>Есть карта Много.ру?</span></a>
+                <fieldset class="form-row mnogo-ru" id="mnogo-ru-card">
+                    <div class="form-label">
+                        <label for="mnogo-ru-card-code">Есть карта Много.ру?</label>
+                    </div>
+                    <div class="form-field">
+                        <input type="text" name="" id="mnogo-ru-card-code" placeholder="Введите № карты">
+                    </div>
+                </fieldset>
+                <fieldset class="checkout">
+                    <button class="button-next" data-popup-open="standart-popup">Оформить заказ</button>
+                    Нажимая на кнопку "Оформить заказ", Вы подтверждаете свое согласие с <a href="#">договором оферты</a>.
+                </fieldset>
+            </form>
+
+        </div>
+
+        <div class="popup standart-popup" id="standart-popup">
+
+            <div class="h1">Спасибо!</div>
+
+            <p>Ваш заказ принят. <br> В ближайшее время с Вами свяжется специалист контакт-центра</p>
+
+            <div class="controls">
+                <button class="button-next popup-close">OK</button>
+            </div>
+
+        </div>
+
+
+
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+    <script>
+            $(function(){
+                $('.tableLineContent .fifthCol a').on('click', function(){
+                    if ($(this).hasClass('closed')){
+                        $(this).parent().find('.opened').removeClass("notActive");
+                    }
+                    else{
+                        $(this).parent().find('.closed').removeClass("notActive");
+                    }
+                    $(this).closest('.tableLine').toggleClass('openedLine');
+                    $(this).addClass("notActive");
+                    $(this).closest('.tableLineContent').find('.orderDescription').toggle();
+                });
+            });
+
+            </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+﻿html, body, h1, h2, h3, h4, h5, h6, div, p, a, img, table, thead, tbody, th, td, dl, ul, ol, li, dt, dd, form, fieldset, label, button, hr 	{margin: 0; padding: 0; border: 0; font-weight: normal;}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {display: block;}
+ol, ul		                {list-style: none;}
+img		                    {border: none;}
+table                       {border-collapse: collapse;}
+:focus 		                {outline: 0;}
+button::-moz-focus-inner, input::-moz-focus-inner {padding: 0; border: 0;}   
+audio, canvas, video    	{display: inline-block;}
+audio:not([controls])		{display: none; height: 0;}
+[hidden]                    {display: none;}
+textarea                    {overflow: auto; vertical-align: top;}
+button						{background-color: transparent;}

@@ -1,0 +1,74 @@
+﻿.anons 
+		{
+			margin-top: 5px;
+			margin-bottom: 30px;
+			width: 100%;
+			overflow: hidden;
+			white-space: nowrap;
+		}
+		.anons li
+						{
+							display: inline-block;
+							margin-right: 23px;
+							width: 225px;
+							padding-top: 10px;
+							vertical-align: top;
+							white-space: normal;
+						}
+				.anons a
+								{
+									display: block;
+									position: relative;
+									border-top: 3px solid #000;
+									text-align: center;
+									text-decoration: none;
+									color: #000;
+								}
+						.item-header
+										{
+											display: block;
+											overflow: hidden;
+											height: 85px;
+											padding: 10px 15px 0 15px;
+										}
+								.item-header .big
+												{
+													display: block;
+													font: normal 185% Futura;
+													text-transform: uppercase;
+												}
+						.anons .call-to-action  
+										{
+											display: block;
+											height: 25px;
+											text-align: center;
+										}
+						.anons a img
+										{
+											display: block;
+											width: 100%;
+										}
+				.type-1
+								{
+									background-color: #b2d8e5;
+								}
+				.type-2
+								{
+									background-color: #eee298;
+								}
+				.type-3
+								{
+									background-color: #ffb6b7;
+								}
+				.type-4
+								{
+									background-color: #fdc7e7;
+								}
+
+
+@media screen and (max-width: 599px) {
+	.anons li 
+		{
+			margin-left: 7px;
+		}
+}                           

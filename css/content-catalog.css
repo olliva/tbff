@@ -1,0 +1,318 @@
+﻿.breadcrumbs .filter-gender
+                {
+                    float: right;
+                    border: 1px solid #bcbcbc;
+                    border-radius: 3px;
+                    text-transform: uppercase;
+                }                       
+        .breadcrumbs .filter-item
+                        {
+                            display: inline-block;
+                            position: relative;
+                            padding: 0 15px;
+                            background-color: #bcbcbc;
+                            vertical-align: top;                    
+                            font: bold 90%/28px Tahoma, Arial, sans-serif;
+                            text-decoration: none;
+                            color: #fff;
+                        }                                       
+        .breadcrumbs .filter-item.active
+                        {
+                            background-color: #fff;
+                            color: #000;
+                        }                                                       
+                .breadcrumbs .filter-item.active:after
+                                {
+                                    content: "";
+                                    position: absolute;
+                                    top: 100%;
+                                    right: 0;
+                                    left: 0;
+                                    margin: auto;
+                                    width: 8px;
+                                    height: 5px;
+                                    background: url(../images/icons.png) -900px 0 no-repeat;
+                                }                                                                       
+.catalog-sort
+                {
+                    margin: 20px 0;
+                    text-align: center;
+                    text-transform: uppercase;                    
+                    font-size: 0;
+                }
+        .catalog-sort div
+                        {
+                            display: inline-block;
+                            border: 1px solid #d9d9d9;
+                            border-radius: 20px;
+                            background-color: #ededed;         
+                        }                                                
+                .catalog-sort .item
+                                {
+                                    display: inline-block;
+                                    padding: 0 25px;
+                                    border: solid 1px transparent;
+                                    border-radius: 20px;
+                                    font-size: 11px;
+                                    line-height: 26px;                                       
+                                    font-weight: bold;                                    
+                                    text-decoration: none;
+                                    color: #767676;                                    
+                                }                                
+                .catalog-sort .item:first-child
+                                {
+                                    padding-right: 20px;
+                                    padding-left: 20px;
+                                }                                                                
+                .catalog-sort .active
+                                {
+                                    border-color: #cfcfcf;
+                                    background-color: #fff;
+                                    color: #7f7f7f;                                    
+                                }                
+                .catalog-sort i,
+                .catalog-sort b  
+                                {
+                                    display: inline-block;
+                                    width: 70px;
+                                    text-align: center;
+                                }                                                                                                                
+                .catalog-sort i,
+                .catalog-sort .active b  
+                                {
+                                    display: none;
+                                }                                                                                
+                .catalog-sort .active i
+                                {
+                                    display: block;
+                                    font-weight: normal;
+                                    font-style: normal;
+                                }                                                
+                        .sort-up,
+                        .sort-down
+                                        {
+                                            display: inline-block;
+                                            width: 0;
+                                            height: 0;
+                                            margin: 11px -10px 0 2px;
+                                            border-style: solid;
+                                            vertical-align: top;
+                                        }                
+                        .sort-up
+                                        {
+                                            border-width: 0 5px 5px 5px;
+                                            border-color: transparent transparent #767676 transparent;
+                                        }
+                        .sort-down
+                                        {
+                                            border-width: 5px 5px 0 5px;
+                                            border-color: #767676 transparent transparent transparent;
+                                        }
+.catalog-content-filter
+                {
+                    position: relative;
+                    margin: 15px 0 20px 0;
+                    min-height: 30px;
+                }
+@media screen and (min-width: 1015px)                
+                {
+                    .catalog-content-filter
+                                    {
+                                        display: none;
+                                    }                    
+                }
+        .catalog-content-filter .show-filter
+                        {
+                            position: absolute;
+                            top: -3px;
+                            left: -30px;
+                            padding-right: 20px;
+                            padding-left: 10px;
+                            border-radius: 0 20px 20px 0;
+                            background-color: #000;
+                            box-shadow: 0 1px 2px rgba(0,0,0,.3);
+                            font-family: Tahoma, Arial, sans-serif;
+                            font-size: 11px;
+                            font-weight: bold;
+                            line-height: 35px;
+                            text-transform: uppercase;
+                            color: #aaa9a9;
+                            cursor: pointer;
+                        }                
+                .catalog-content-filter .show-filter:after
+                                {
+                                    content: "";
+                                    position: absolute;
+                                    top: 15px;
+                                    right: 8px;
+                                    width: 6px;
+                                    height: 6px;
+                                    background: url(../images/icons.png) -900px -300px no-repeat;
+                                }                                        
+        .catalog-content-filter ul
+                        {
+                            margin: 0 100px;
+                            text-align: center;
+                        }
+                .catalog-content-filter li
+                                {
+                                    display: inline-block !important;
+                                    position: relative;
+                                    margin: 0 5px 10px 5px;
+                                    height: 30px;
+                                    padding: 0 30px 0 10px;
+                                    border-radius: 3px;
+                                    background-color: #fff;
+                                    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+                                    vertical-align: top;
+                                    font-size: 14px;
+                                    line-height: 30px;
+                                    cursor: pointer;
+                                }
+                        .catalog-content-filter a
+                                        {
+                                            text-decoration: none;
+                                            color: #8e8e8e;
+                                        }                                
+                        .catalog-content-filter a[style^='background']
+                                        {
+                                            display: inline-block;
+                                            margin-top: 2px;
+                                            margin-left: -7px;
+                                            width: 25px;
+                                            height: 25px;
+                                            border-radius: 3px;
+                                            box-shadow: 0 0 1px rgba(0,0,0,.2);
+                                        }                                                                        
+                                .catalog-content-filter a[style^='background']:before
+                                                {
+                                                    content: "";
+                                                    position: absolute;
+                                                    z-index: 0;
+                                                    top: 0;
+                                                    right: 0;
+                                                    bottom: 0;
+                                                    left: 0;
+                                                    border-radius: 3px;
+                                                    background: -moz-linear-gradient(top, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 100%);
+                                                    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.2)), color-stop(100%,rgba(255,255,255,0)));
+                                                    background: -webkit-linear-gradient(top, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0) 100%);
+                                                    background: -o-linear-gradient(top, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0) 100%);
+                                                    background: -ms-linear-gradient(top, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0) 100%);
+                                                    background: linear-gradient(to bottom, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0) 100%);
+                                                }                                                                                                                                                                    
+                                .catalog-content-filter li a:after
+                                                {
+                                                    content: "";
+                                                    position: absolute;
+                                                    top: 3px;
+                                                    right: 10px;
+                                                    bottom: 0;
+                                                    margin: auto;
+                                                    width: 10px;
+                                                    height: 10px;
+                                                    background: url(../images/icons.png) -900px -100px no-repeat;
+                                                }                  
+
+.catalog
+                {
+                    margin: 15px 0 40px 0;
+                    padding-top: 2px;
+                    text-align: center;
+                }
+        .catalog li
+                        {
+                            margin: 0 28px 25px 28px;
+                        }                
+
+
+.catalog-retro-logo
+                {
+                    display: block;
+                    margin: 0 auto 15px auto;
+                    width: 292px;
+                    height: 161px;
+                    background: url(../images/catalog/retro-logo.png) 0 0 no-repeat;
+                }
+
+
+.catalog-supermarket-header
+                {
+                    margin: 0 auto 15px auto;
+                    padding-left: 20px;
+                    text-align: center;
+                }
+        .catalog-supermarket-logo
+                        {
+                            display: inline-block;
+                            width: 102px;    
+                            height: 75px;
+                            background: url(../images/catalog/supermarket-logo.jpg) 0 0 no-repeat;
+                            vertical-align: top;
+                        }
+        .catalog-supermarket-join
+                        {
+                            display: inline-block;
+                            margin-left: 25px;
+                            width: 140px;    
+                            height: 52px;
+                            padding: 20px 0 20px 20px;
+                            border-left: 1px solid #dcdcdc;
+                            background: url(../images/catalog/supermarket-join.jpg) 100% 20px no-repeat;
+                            vertical-align: top;
+                        }
+
+
+
+@media screen and (max-width: 767px) {
+    .breadcrumbs .filter-gender
+                    {
+                        clear: both;
+                        float: left;
+                        margin-top: 5px;
+                        margin-left: -5px;
+                    }    
+    .catalog-content-filter .show-filter
+                    {
+                        left: -60px;
+                    }                                    
+}                           
+@media screen and (max-width: 599px) {
+    .catalog-retro-logo
+                    {
+                        margin-left: -25px;
+                    }
+    .catalog-supermarket-join
+                    {
+                        margin-left: 0;
+                        border-left: none;
+                    }                    
+    .catalog-sort 
+                    {
+                        margin-right: -20px;
+                        margin-left: -20px;
+                    }                                                    
+    .catalog-sort .item
+                    {
+                        padding: 0 15px;
+                        font-size: 10px;
+                    }                                
+    .catalog-content-filter .show-filter
+                    {
+                        left: -40px;
+                    }  
+                    
+
+    .catalog{
+        margin: 0 -40px;
+    }      
+    .catalog li{
+        margin: 0 5px 25px 5px;
+        width: 146px;
+    }       
+    .photo img {
+        width: 100%;
+    }                                   
+}                           
+
+

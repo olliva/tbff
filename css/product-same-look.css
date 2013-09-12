@@ -1,0 +1,77 @@
+﻿					.product .same-look
+										{
+											float: right;
+											width: 235px;
+										}	
+			                .product .same-look-list
+			                                {
+			                                    position: relative;
+			                                }               																						
+				                .product .same-look-list>div
+				                                {
+				                                    overflow: hidden;
+				                                }               												
+										.product .same-look .list
+														{
+															position: relative;
+															white-space: nowrap;
+														}																																										
+								.product .same-look .catalog-item
+												{
+													margin: 5px 50px 15px 25px;
+													white-space: normal;
+												}
+								.product .same-look .call-to-action
+												{
+													margin-left: 25px;
+												}
+@media screen and (min-width: 600px) {
+	.product .same-look .nr-prev,
+	.product .same-look .nr-next,
+	.product .same-look .nr-counter
+					{
+						display: none;
+					}
+}												
+@media screen and (max-width: 599px) {
+	.product .same-look
+					{
+						float: none;
+						width: auto;
+						margin-bottom: 50px;
+					}
+			.product .same-look-list
+							{
+								position: relative;
+								width: 100%;
+							}					
+	                .same-look-list>div
+	                                {
+	                                    margin: 0 auto;
+	                                    width: 183px;
+	                                    padding: 0 3px;
+	                                }               
+			                .same-look-list  .list
+	                                        {
+	                                            position: relative;
+	                                            white-space: nowrap;
+	                                        }           					
+			                .product .same-look-list  .catalog-item
+	                                        {
+	                                            margin: 2px 20px 0 0;
+	                                        }           			
+	                .product .same-look .nr-prev,
+	                .product .same-look .nr-next
+	                                {
+	                                	top: 105px;
+	                                    bottom: auto;
+	                                }                       
+	                .product .same-look .nr-counter
+	                                {
+	                                	position: absolute;
+	                                    top: 250px;
+	                                    left: 260px;
+	                                    font-size: 115%;
+	                                    color: #8e8e8e;
+	                                }
+}														                                                												

@@ -1,0 +1,310 @@
+﻿.catalog-filter
+				{
+					width: 230px;
+					border-bottom: 1px solid #333;
+					font-family: Tahoma, Arial, sans-serif;
+				}
+		.catalog-filter .expand
+						{
+							display: block;
+							position: relative;
+							padding: 0 5px 0 20px;
+							border-bottom: 1px solid #141414;
+							cursor: pointer;
+						}
+				.catalog-filter .name
+								{
+									display: block;
+									position: relative;
+									padding: 20px 0 22px 0;
+									line-height: 18px;
+									color: #8e8e8e;
+									cursor: pointer;
+								}
+						.catalog-filter .name:after
+										{
+											content: "";
+											position: absolute;
+											top: 0;
+											right: 25px;
+											bottom: 0;
+											margin: auto;
+											width: 0;
+											height: 0;
+											border-style: solid;
+											border-width: 5px;
+											border-color: transparent transparent transparent #6c6c6c;
+										}								
+				.catalog-filter .selected
+								{
+									margin-right: 18px;
+								}
+						.catalog-filter .selected li
+										{
+											position: relative;
+											margin: 0 0 10px 10px;
+											background-color: #4b4b4b;
+											color: #fff;
+											cursor: pointer;
+										}								
+						.catalog-filter .selected a
+										{
+											display: block;
+											position: relative;
+											min-height: 18px;
+											padding: 5px 30px 5px 10px;
+											text-decoration: none;
+											color: #fff;
+										}																		
+						.catalog-filter .selected li a:after
+										{
+											content: "";
+											position: absolute;
+											top: 0;
+											right: 10px;
+											bottom: 0;
+											margin: auto;
+											width: 10px;
+											height: 10px;
+											background: url(../images/icons.png) -900px -100px no-repeat;
+										}				
+
+		.catalog-filter .list
+						{
+							display: none;
+							border-bottom: 1px solid #141414;
+						}
+
+.catalog-filter.active
+				{
+					z-index: 1;
+					margin-top: -1px;
+					padding-top: 1px;
+					background: #171717 url(../images/filter-bg.jpg);
+				}							
+		.catalog-filter.active .name
+						{
+							color: #fff;
+						}															
+				.catalog-filter.active .name:after
+								{
+									border-color: #fff transparent transparent transparent;
+								}																			
+		.catalog-filter.active .selected
+						{
+							display: none;
+						}											
+		.catalog-filter.active .list
+						{
+							display: block;
+						}															
+.cf-category .list
+				{
+					padding: 0 20px;
+				}
+		.cf-category .list li
+						{
+							position: relative;
+							border-top: 1px solid #000;
+							color: #8e8e8e;	
+							cursor: pointer;				
+						}				
+				.cf-category .list ul
+								{
+									position: relative;
+									padding-left: 20px;
+									border-top: 1px solid #000;
+								}																		
+				.cf-category .list li:after,
+				.cf-category .list ul:after
+								{
+									content: "";
+									position: absolute;
+									top: 0;
+									right: 0;
+									left: 0;
+									height: 1px;
+									background-color: #2b2b2b;
+								}		
+				.cf-category .list ul li:first-child
+								{
+									border-top: none;
+								}			
+				.cf-category .list ul li:first-child:after
+								{
+									display: none;
+								}
+				.cf-category .list a
+								{
+									display: block;
+									position: relative;
+									z-index: 20;
+									padding: 20px;
+									text-decoration: none;
+									color: #8e8e8e;	
+								}				
+
+		.cf-category .list .active>a
+						{
+							content: "";
+							position: relative;
+							z-index: 10;
+							top: 0;
+							right: -50px;
+							left: -100px;
+							width: 200px;
+							height: 100%;
+							padding-left: 120px;
+							background: url(../images/nav-bg.jpg);
+						}																									
+				.cf-category .list .active>a:before
+								{
+									content: "";
+									position: absolute;
+									z-index: 10;
+									top: -2px;
+									right: -50px;
+									left: -100px;
+									height: 1px;
+									background-color: #474747;
+									border-top: 1px solid #000;
+								}																																					
+				.cf-category .list .active>a:after
+								{
+									content: "";
+									position: absolute;
+									z-index: 10;
+									top: 100%;
+									right: -50px;
+									left: -100px;
+									height: 1px;
+									background-color: #000;
+									border-bottom: 1px solid #2f2f2f;
+								}																															
+		.cf-category .more ~ li
+						{
+							display: none;
+						}				
+
+.cf-size .size-list
+				{
+					padding: 0 10px 0 30px;
+				}
+		.cf-size .size-list li
+						{
+							background-color: #292929;
+						}				
+		.cf-size .size-list .active,
+		.cf-size .size-list .active a
+						{
+							background-color: #414141;
+						}				
+
+.cf-color .color-list
+				{
+					padding: 5px 5px 0 20px;
+				}
+.cf-color .selected
+				{
+					padding-top: 5px;
+				}				
+
+
+.nav .filter-gender
+                {
+                	display: none;
+                }                       
+
+.catalog-retro-filter .list
+                {
+                	text-align: center;
+                	font-family: Tahoma, Arial, sans-serif;
+                }
+        .catalog-retro-filter .list li
+                        {
+                            position: relative;
+                            border-bottom: 1px solid #333;
+                            color: #8e8e8e; 
+                        }               
+                .catalog-retro-filter .list li:after
+                                {
+                                    content: "";
+                                    position: absolute;
+                                    right: 0;
+                                    bottom: 0;
+                                    left: 0;
+                                    height: 1px;
+                                    background-color: #111;
+                                }       
+                .catalog-retro-filter .list a,
+                .catalog-retro-filter .list span
+                                {
+                                    display: block;
+                                    padding: 20px;
+                                    text-decoration: none;
+                                }      
+                .catalog-retro-filter .list a
+                                {
+                                    color: #fff; 
+                                }                                      
+        .catalog-retro-filter .list li:last-child
+                        {
+                            border-bottom: none;
+                        }                                                        
+        .catalog-retro-filter .list li:last-child:after
+                        {
+                            display: none;
+                        }                                                                                
+        .catalog-retro-filter .list .active,
+        .catalog-retro-filter .list .active a
+                        {
+                            color: #fff;
+                        }                                                                                                   
+
+
+@media screen and (max-width: 1015px) {
+	.nav .filter-gender
+	                {
+	                	display: block;
+	                	width: 230px;
+	                	padding: 15px 0;
+	                	text-align: center;
+	                }                       
+	.nav .filter-gender .wrap
+	                {
+	                	display: inline-block;
+	                    border: 1px solid #0c0c0c;
+	                    border-radius: 3px;
+	                    background-color: #181818;
+	                    box-shadow: 0 0 1px #424242;
+						text-transform: uppercase;                    
+	                }                                       
+	        .nav .filter-item
+	                        {
+	                            display: inline-block;
+	                            position: relative;
+	                            padding: 0 15px;
+	                            border-radius: 3px;
+	                            vertical-align: top;                    
+	                            font: bold 80%/28px Tahoma, Arial, sans-serif;
+	                            text-decoration: none;
+	                            color: #5e5e5e;
+	                        }                                       
+	        .nav .filter-item.active
+	                        {
+	                            background-color: #feca06;
+	                            color: #000;
+	                        }                                                       
+	                .nav .filter-item.active:after
+	                                {
+	                                    content: "";
+	                                    position: absolute;
+	                                    top: 100%;
+	                                    right: 0;
+	                                    left: 0;
+	                                    margin: auto;
+	                                    width: 8px;
+	                                    height: 5px;
+	                                    background: url(../images/icons.png) -900px -200px no-repeat;
+	                                }                                                                     						
+}                           

@@ -1,0 +1,75 @@
+﻿.e500
+                {
+                    position: relative;
+                    min-width: 320px;
+                    min-height: 100%;
+                    padding: 0;
+                    background: #555 url(../images/errors/500-bg.png);
+                }
+.e500-topbar
+                {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    left: 0;
+                    height: 17px;
+                    background: #000 url(../images/errors/topbar-bg.png) repeat-x;                    
+                }
+.e500-logo
+                {
+                    position: absolute;
+                    top: 0;
+                    left: 20px;
+                    width: 101px;
+                    height: 65px;
+                    background-image: url(../images/logo-mini.png);
+                }
+.e500-content
+                {
+                    position: absolute;
+                    top: 20px;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    margin: auto;
+                    width: 300px;
+                    height: 215px;
+                    padding-top: 235px;
+                    background: url(../images/errors/500-sign.png) 50% 0 no-repeat;
+                }
+.e500 h1
+                {
+                    margin-bottom: 45px;
+                    font-family: Tahoma, Arial, sans-serif;
+                    font-size: 16px;
+                    line-height: 1.1em;
+                    text-transform: none;
+                    color: rgba(255,255,255,.7);
+                }                
+.e500 h2
+                {
+                    text-align: center;
+                    font: italic 35px/1em Georgia;
+                    color: #fff;
+                }                                
+@media screen and (min-width: 1024px)                
+{
+    .e500-topbar
+                {
+                    display: none;
+                }
+}
+@media screen and (max-width: 767px)                
+{
+    .e500-logo
+                {
+                    left: 60px;
+                }
+}
+@media screen and (max-width: 599px)                
+{
+    .e500-logo
+                {
+                    left: 40px;
+                }
+}

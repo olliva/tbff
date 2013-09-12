@@ -1,0 +1,79 @@
+
+.subscribe{
+	display: none;
+}
+.blockWithLinks{
+	margin-right: -12px;
+}
+	.blockWithLinks li{
+		display: inline-block;
+		margin-right: 12px;
+		margin-bottom: 10px;
+	}
+		.blockWithLinks li a{
+			width: 479px;
+			background: #b34e9e url(../images/purple-arrow.gif) no-repeat 447px 17px;
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+			        box-sizing: border-box;
+			height: 44px;
+			font: normal 17px/44px Futura;
+			display: block;
+			color: white;
+			text-decoration: none;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+			.blockWithLinks li a img{
+				margin-top: -2px;
+				margin-left: 15px;
+				vertical-align: middle;
+				margin-right: 14px;
+			}
+
+@media screen and (max-width: 1265px) and (min-width: 1015px){
+	.blockWithLinks li a{
+		width: 352px;
+		background-position: 320px 17px;
+	}
+}
+@media screen and (max-width: 1015px){
+	.blockWithLinks li a{
+		width: 352px;
+		background-position: 320px 17px;
+	}
+}
+@media screen and (max-width: 767px){
+	.blockWithLinks li{
+		margin-right: 0;
+	}
+		.blockWithLinks li a{
+			width: 480px;
+			background-position: 446px 17px;
+			
+		}
+}
+@media screen and (max-width: 599px){
+	.blockWithLinks li a{
+			width: 240px;
+			background-position: 208px 17px;
+			
+		}
+	.banners .nr-prev{
+		left: -40px;
+	}
+	.banners .nr-next{
+		right: -40px;
+		
+	}
+	.banners .nr-prev:after, .banners .nr-next:after{
+		background-color: #b2509d;
+		border: 0;
+	}
+	.banners .nr-prev:after{
+		background: #b2509d url(../images/left-slider-arrow.gif) no-repeat  6px center;
+	}
+	.banners .nr-next:after{
+		background:  #b2509d url(../images/right-slider-arrow.gif) no-repeat 13px center;
+	}
+}

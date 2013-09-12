@@ -1,0 +1,285 @@
+
+
+
+
+.cart .back-to {
+	position: absolute;
+	
+}
+body .back-to {
+	display: inline-block;
+	position: absolute;
+	left: 39px;
+		top: 16px;
+	margin-right: 15px;
+	padding: 2px 5px 4px 3px;
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+	background-color: #ededed;
+	vertical-align: top;
+	font: bold 11px/29px Tahoma, Arial, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+	cursor: pointer;
+}
+
+
+.mainPageContent{
+	width: 518px;
+	margin: 0 auto;
+	margin-top: 46px;
+}
+	.mainPageContent .line{
+		position: relative;
+	}
+		.mainPageContent label{
+			display: block;
+			float: left;
+			font: normal 14px/42px Tahoma;
+			width: 156px;
+		}
+		.mainPageContent input[type="text"]{
+			border: 1px solid #e5e5e5;
+			font: normal 14px/16px Tahoma;
+			padding-left: 10px;
+			width: 310px;
+			margin-top: 7px;
+			height: 26px;
+		}
+			.mainPageContent input[type="text"].smallInput{
+				width: 81px;
+				float: left;
+			}
+			.mainPageContent input[type="text"].mediumInput{
+				width: 167px;
+			}
+		.mainPageContent .gender label{
+			margin-top: -8px;
+		}
+		.smallSize{
+			display: none;
+		}
+		.mainPageContent .line ul{
+			list-style: none;
+			background: #ededed;
+			border: 1px solid #d9d9d9;
+			-webkit-border-radius: 13px;
+			        border-radius: 13px;
+			width: 166px;
+			margin-left: 156px;
+			height: 25px;
+			margin-top: 8px;
+		}
+			.mainPageContent .line ul li{
+				float: left;
+				text-transform: uppercase;
+				line-height: 23px;
+				color: #767676;
+				font-weight: bold;
+				-webkit-border-radius: 14px;
+				        border-radius: 14px;
+				border: 1px solid transparent;
+				text-align: center;
+				width: 81px;
+				cursor: pointer;
+			}
+				.mainPageContent .line ul li.active{
+					font-weight: normal;
+					color: #7f7f7f;
+					border-color: #d9d9d9;
+					background: #ffffff;
+				}
+
+
+
+
+	.mainPageContent .submit{
+		margin-top: 20px;
+		padding-left: 156px;
+	}
+		.mainPageContent .submit input[type="submit"]{
+			background: #b24e9d;
+			font: bold 11px/28px Tahoma;
+			color: white;
+			text-transform: uppercase;
+			height: 30px;
+			width: 180px;
+			border: 0;
+			cursor: pointer;
+		}
+			.mainPageContent .submit input[type="submit"].notActive{
+				background: #d8d8d8;
+				cursor: default;
+			}
+
+		.mainPageContent .mainInformation{
+			border-bottom: 1px solid #e5e5e5;
+			padding-bottom: 23px;
+			margin-left: 37px;
+		}
+		.mainPageContent .mainChangePass{
+			padding-top: 16px;
+			margin-bottom: 53px;
+			margin-left: 37px;
+		}
+			.mainPageContent .mainChangePass .submit input[type="submit"]{
+				width: 157px;
+			}
+
+
+.mainPageContent .message{
+	position: relative;
+	float: left;
+	margin-top: 16px;
+	margin-left: 12px;
+}
+	.mainPageContent .message img{
+		cursor: pointer;
+		opacity: 0.7;
+	}
+		.mainPageContent .message img.noOpacity{
+			opacity: 1;
+		}
+	.mainPageContent .message img.blackAr{
+		position: absolute;
+		left: -4px;
+		top: 17px;
+		cursor: default;
+		opacity: 1;
+	}
+	.mainPageContent .message img.blackArTop{
+		display: none;
+	}
+	.mainPageContent .message .mes{
+		color:white;
+		font: normal 12px/14px Tahoma;
+		position: absolute;
+		top: -14px;
+		left: 22px;
+		width: 180px;
+		padding: 6px 7px;
+		border-radius: 4px;
+		display: none;
+	}
+		.mainPageContent .message .mes .messageBAck{
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			background: black;
+			opacity: 0.7;
+			top: 0;
+			left: 0;
+			border-radius: 4px;
+			z-index: -1;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+	.mainPageContent{
+		width: 480px;
+	}
+	.mainPageContent .mainInformation{
+		margin-left: 0;
+	}
+	.mainPageContent .mainChangePass{
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 767px){
+	body .back-to{
+		left: 60px;
+	}
+}
+
+
+@media screen and (max-width: 599px){
+	.mainPageContent{
+		width: 240px;
+	}
+		.mainPageContent label{
+			width: 109px;
+		}
+
+
+	.bigSize{
+		display: none;
+	}
+	.smallSize{
+		display: block;
+	}
+	.mainPageContent .submit {
+		margin-top: 15px;
+		padding-left: 109px;
+	}
+		.mainPageContent .changePassLine{
+			margin-top: 18px;
+		}
+		.mainPageContent input[type="text"],
+		.mainPageContent input[type="text"].mediumInput{
+			width: 118px;
+		}
+
+		.mainPageContent .submit input[type="submit"],
+		.mainPageContent .mainChangePass .submit input[type="submit"]{
+			width: 128px;
+		}
+
+
+	.mainPageContent .message img.blackAr{
+		display: none;
+	}
+	.mainPageContent .message img.blackArTop{
+		position: absolute;
+		top: -5px;
+		opacity: 1;
+		left: 123px;
+		display: block;
+	}
+	.mainPageContent .message .mes {
+		top: 24px;
+		left: -124px;
+		width: 135px;
+		z-index: 2;
+	}
+
+	.mainPageContent .mainChangePass{
+		margin-bottom: 31px;
+	}
+
+	.mainPageContent .line ul{
+		width: 86px;
+		margin-left: 109px;
+	}
+	.mainPageContent .line ul li{
+		width: 41px;
+	}
+	body .back-to{
+		position: absolute;
+		left: 39px;
+		top: 16px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+

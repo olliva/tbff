@@ -1,0 +1,669 @@
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+
+
+
+
+.cardContent{
+	width: 720px;
+	margin: 0 auto;
+	padding-top: 12px;
+}
+	.cardContent .payHeader{
+		width: 240px;
+		margin: 0 auto;
+		margin-top: 9px; 
+		text-align: center;
+		position: relative;
+	}
+		.cardContent .payHeader h1{
+			margin: 0;
+			margin-left: -2px;
+			margin-bottom: 32px;
+		}
+		.cardContent .payHeader h2{
+			font:normal 23px/23px Georgia;
+			text-transform: uppercase;
+			color: black;
+			margin-top: -2px;
+		}
+	.cardContent .contentInColumns{
+		margin-top: 38px;
+		margin-bottom: 78px;
+	}
+		.cardContent .payLeftColumn{
+			width: 220px;
+			float: left;
+			margin-left: 10px;
+			margin-top: 4px;
+		}
+				.cardContent .payLeftColumn input[type="submit"].topPayForMobile{
+					display: none;
+				}
+			.cardContent .payLeftColumn h3{
+				font: normal 14px Tahoma;
+			}
+			.cardContent .payLeftColumn p.payLines{
+				display: block;
+				font: bold 14px Tahoma;
+				text-transform: uppercase;
+				background: #fff5be;
+				text-align: center;
+				margin-top: 9px;
+				padding: 15px 0;
+				margin-bottom: 21px;
+			}
+			.cardContent .payLeftColumn p.payWay{
+				margin-top: 7px;
+			}
+			.cardContent .payLeftColumn .summary{
+				background: #f0f0f0 url(../images/footer-bg.jpg);
+				border-top: 1px solid #c7c7c7;
+				padding: 14px 10px 13px;
+				margin-top: 18px;
+				margin-left: 1px;
+			}
+				.cardContent .payLeftColumn .summary p{
+					font: bold 14px/18px Tahoma;
+					margin-bottom: 15px;
+					margin-left: -2px;
+				}
+					.cardContent .payLeftColumn .summary p span{
+						float: right;
+					}
+	 input[type="submit"]{
+		width: 100%;
+		background: #b24e9d;
+		font: bold 14px/35px Tahoma;
+		color: white;
+		text-transform: uppercase;
+		border:0;
+		cursor: pointer;
+		height: 40px;
+	}
+
+
+
+
+.garantie{
+	margin-top: 22px;
+	border-bottom: 1px solid #dfdfdf;
+	padding-bottom: 11px;
+}
+	.garantie .reliablePurchase{
+			font-family: Tahoma;
+			font-size: 14px;
+			color: black;
+			padding-left: 51px;
+			background: url(../images/garanty_icons.gif) no-repeat left center;
+			line-height: 28px;
+			background-position: 11px 1px;
+			margin-top: 16px;
+		}
+	.garantie .garant{
+			font-family: Tahoma;
+			font-size: 14px;
+			color: black;
+			padding-left: 51px;
+			background: url(../images/garanty_icons.gif) no-repeat left center;
+			line-height: 17px;
+			margin-top: 15px;
+			background-position: 11px -42px;
+			padding-bottom: 16px;
+			margin-right: 6px;
+		}
+
+.epigraph{
+	font: normal 14px/20px Tahoma;
+	margin-top: 17px;
+}
+	.epigraph a{
+		font-weight: bold;
+		color: #9c3292;
+		text-decoration: none;
+	}
+
+
+
+
+
+
+		.cardContent .orderRightColumn{
+			width: 470px;
+			float: right;
+			border-bottom: 1px solid #d5d5d5;
+			padding-bottom: 1px;
+		}
+			.cardContent .orderRightColumn h3{
+				font: bold 14px Tahoma;
+			}
+			.cardContent .orderRightColumn .orderCard{
+				padding: 14px 0 16px;
+				border-bottom: 1px solid #d5d5d5;
+			}
+			.cardContent .orderRightColumn .orderCard + .orderCard{
+				padding: 17px 0 18px;
+			}
+				.cardContent .orderRightColumn .orderCard img{
+					float: left;
+					-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.22);
+					        box-shadow: 0px 1px 3px rgba(0,0,0,0.22);
+					display: block;
+					margin-right: 54px;
+				}
+				.cardContent .orderRightColumn .orderCard .cardDescription{
+					margin-right: 50px;
+				}
+					.cardContent .orderRightColumn .orderCard .cardDescription h3{
+						font: normal 14px/21px Tahoma;
+						margin-top: -6px;
+						margin-bottom: 9px;
+					}
+					.cardContent .orderRightColumn .orderCard .cardDescription p{
+						font: normal 14px/21px Tahoma;
+					}
+						.cardContent .orderRightColumn .orderCard .cardDescription p span{
+							font: normal 11px/17px Tahoma;
+							text-transform: uppercase;
+							color: #989898;
+							width: 65px;
+							display: block;
+							float: left;
+							margin-top: 4px;
+							letter-spacing: 1px;
+						}
+
+
+	.social{
+		background: url(../images/content-bg.jpg);
+	}
+		.footer .social .block-header {
+			font-size: 104%;
+			margin-bottom: 23px;
+			max-width: 274px;
+			letter-spacing: 1px;
+		}
+
+			.footer  .social li{
+				margin: 0 28px;
+			}
+	.subscribeInput{
+		background: url(../images/content-bg.jpg);
+		margin-top: -18px;
+		padding-bottom: 20px;
+	}
+	.smallSizePage{
+		display: none;
+	}
+		.subscribeInput .subscribeInputCont{
+			border-top: 1px solid #e4e4e4;
+			padding-top: 16px;
+			width: 720px;
+			margin: auto;
+		}
+		 .subscribeInput label{
+			margin-left: 11px;
+			line-height: 18px;
+			display: block;
+			float: left;
+			width: 239px;
+			margin-top: 2px;
+		}
+		.subscribeInput input[type="text"]{
+			font: normal 14px/21px Tahoma;
+			border: 1px solid #e5e5e5;
+			color: #8e8e8e;
+			height: 26px;
+			margin-top: 5px;
+			padding-left: 9px;
+			width: 207px;
+			margin-right: 4px;
+			display: block;
+			float: left;
+		}
+		.subscribeInput input[type="submit"] {
+			width: 115px;
+			background: #8b8b8b;
+			font: bold 10px/25px Tahoma;
+			margin-left: 6px;
+			margin-top: 5px;
+			padding-left: 20px;
+			border: 0;
+			height: 30px;
+		}
+			.subscribeInput input[type="submit"]#femaleButton{
+				background: #8b8b8b url(../images/female_subscribe_button.gif) no-repeat 15px 8px;
+			}
+			.subscribeInput input[type="submit"]#maleButton{
+				background: #8b8b8b url(../images/male_subscribe_button.gif) no-repeat 15px 8px;
+			}
+
+	.footer-menu li span{
+		padding: 22px 0 19px;
+	}
+	.footer-menu a{
+		padding: 18px 0 19px 0px;
+	}
+	.footer{
+		padding-bottom: 36px;
+	}
+		.footer .full-site-link{
+			margin-top: 32px;
+			padding: 0 10px 0 34px;
+		}
+		.copyright {
+			margin-top: 30px;
+			margin-left: 34px;
+		}
+			.copyright span{
+				margin-right: 30px;
+			}
+
+
+/* оплата наличными */
+.cashPay .garantie {
+	margin-top: -18px;
+}
+
+/* оплачено */
+
+.payedPage .epigraph{
+	border-top: 1px solid #d5d5d5;
+	margin-top: -9px;
+	padding-top: 10px;
+	margin-left: 2px;
+}
+
+
+
+@media screen and (max-width: 767px){
+	.cardContent {
+		width: 480px;
+	}
+	.cardContent .payLeftColumn{
+		width: 100%;
+		float: none;
+		margin-left: 0;
+		margin-top: 44px;
+	}
+
+		.cardContent .payLeftColumn .column{
+			width: 230px;
+			float: left;
+		}
+			.cardContent .payLeftColumn input[type="submit"].topPayForMobile{
+				display: block;
+				width: 230px;
+				margin-top: 2px;
+			}
+			.cardContent .payLeftColumn .column p{
+				padding-right: 7px;
+			}
+		.cardContent .payLeftColumn .secondColumn{
+			width: 240px;
+			margin-left: 10px;
+		}
+			.cardContent .payLeftColumn .secondColumn p{
+				padding-right: 0;
+				padding-left: 5px;
+			}
+		.cardContent .payLeftColumn p.payLines{
+			margin-top: 7px;
+			margin-bottom: 12px;
+		}
+	.cardContent .orderRightColumn{
+		float: none;
+		margin-top: 18px;
+		width: 480px;
+	}
+		.cardContent .orderRightColumn h3{
+			margin-left: 7px;
+		}
+		.cardContent .orderRightColumn .orderCard{
+			padding-bottom: 17px;
+		}
+			.cardContent .orderRightColumn .orderCard:last-child{
+				border-bottom: 0;
+			}
+			.cardContent .orderRightColumn .orderCard img{
+				margin-left: 9px;
+			}
+	.cardContent .payLeftColumn .summary {
+		margin-top: -45px;
+		margin-left: 0;
+		padding-bottom: 13px;
+	}
+		.cardContent .payLeftColumn .summary p{
+			float: left;
+			margin-top: 13px;
+			margin-left: 16px;
+		}
+		.cardContent .payLeftColumn .summary p span{
+			float: none;
+			padding-left: 7px;
+		}
+		.cardContent .summary input[type="submit"]{
+			width: 224px;
+			float: right;
+			padding-right: 22px;
+			margin-right: 5px;
+			margin-top: 2px;
+		}
+	.epigraph,
+	.garantie{
+		border-bottom: 0;
+		float: left;
+		width: 240px;
+	}
+	.garantie{
+		margin-top: 7px;
+		padding-left: 14px;
+		width: 226px;
+	}
+		.garantie .garant{
+			margin-top: 19px;
+			padding-left: 49px;
+			background-position: 10px -44px;
+		}
+	.epigraph{
+		margin-top: 26px;
+	}
+	.cardContent .footer{
+		padding: 0;
+	}
+	.cardContent .footer .social li {
+		margin: 0 8px;
+		}
+		.cardContent .contentInColumns{
+			margin-bottom: 0;
+		}
+	.fullSizePage{
+		display: none;
+	}
+	.smallSizePage{
+		display: block;
+	}
+		.subscribeInput{
+			background: url(../images/footer-bg.jpg);
+			margin-bottom: 2px;
+			padding: 16px 0px 16px 26px;
+			padding-bottom: 19px;
+		}
+			.subscribeInput .subscribeInputCont{
+				border:0;
+				padding: 0;
+				width: 100%;
+			}
+			.subscribeInput label{
+				font: normal 14px/18px Futura;
+				color: rgb(142, 142, 142);
+				text-transform: uppercase;
+				float: none;
+				width: 100%;
+				margin: 0;
+			}
+			.subscribeInput input[type="text"]{
+				margin-top: 10px;
+				padding-left: 13px;
+				width: 187px;
+				margin-right: 8px;
+			}
+			.subscribeInput input[type="submit"] {
+				width: 107px;
+				margin-left: 5px;
+				margin-top: 10px;
+			}
+			.subscribeInput input[type="submit"]#femaleButton {
+				background-position: 11px 8px;
+			}
+			.subscribeInput input[type="submit"]#maleButton {
+				background-position: 11px 9px;
+			}
+
+		.social-expand{
+			padding: 16px 26px;
+		}
+		.footer-menu-expand{
+			padding: 23px 27px 25px;
+		}
+	.footer{
+		margin-top: 26px;
+		padding-bottom: 16px;
+	}
+		.footer .social li {
+			margin: 0 8px;
+		}
+		.footer .full-site-link{
+			margin-top: 2px;
+			padding: 4px 10px 6px 29px;
+		}
+	.copyright {
+		margin-top: 18px;
+		margin-left: 26px;
+	}
+
+	/* оплата наличными */
+	.cashPay .orderRightColumn{
+		margin-top: 30px;
+		
+	}
+	.cashPay .orderRightColumn .orderCard:last-child {
+		border-bottom: 1px solid #d5d5d5;
+	}
+	.cashPay .garantie{
+		margin-top: -36px;
+		padding-right: 5px;
+		width: 221px;
+	}
+	.cashPay .epigraph{
+		margin-top: -17px;
+	}
+	.cashFooter{
+		margin-top: 63px;
+	}
+
+	/* оплачен */
+	
+	.payedPage .payLeftColumn p.payLines{
+		padding-left: 10px;
+		margin-bottom: 24px;
+	}
+	.payedPage .orderRightColumn .orderCard:last-child{
+		border-bottom: 1px solid #d5d5d5;
+	}
+	.payedPage .epigraph{
+		border:0;
+		width: 426px;
+		margin: 0 auto;
+		display: block;
+		float: none;
+		margin-top: -26px;
+		margin-bottom: 30px;
+	}
+}
+
+
+@media screen and (max-width: 599px){
+	.cardContent {
+	width: 100%;
+	}
+		.cardContent .payLeftColumn .column {
+			float: none;
+			margin: 0 auto;
+			width: 240px;
+		}
+			.cardContent .payLeftColumn .column p {
+				padding-right: 14px;
+			}
+		.cardContent .payLeftColumn .secondColumn {
+			margin-top: 22px;
+		}
+			.cardContent .payLeftColumn .secondColumn p{
+				padding-left: 0;
+			}
+		.cardContent .payLeftColumn input[type="submit"].topPayForMobile{
+			margin: 0 auto;
+			width: 240px;
+		}
+		.cardContent .payLeftColumn p.payLines{
+			margin-bottom: 14px;
+		}
+		.cardContent .orderRightColumn{
+			margin-top: 41px;
+			width: 320px;
+		}
+			.cardContent .orderRightColumn .orderCard {
+				padding-top: 24px;
+				width: 320px;
+				padding-bottom: 25px;
+			}
+			.cardContent .orderRightColumn .orderCard + .orderCard{
+				padding: 19px 0 26px;
+			}
+				.cardContent .orderRightColumn h3{
+					padding-left: 32px;
+				}
+				.cardContent .orderRightColumn .orderCard img{
+					width: 52px;
+					height: 80px;
+					margin-left: 40px;
+					margin-right: 19px;
+				}
+				.cardContent .orderRightColumn .orderCard .cardDescription{
+					float: left;
+					display: block;
+					width: 200px;
+					margin-right: 0;
+				}
+					.cardContent .orderRightColumn .orderCard .cardDescription h3 {
+						padding-left: 0;
+						margin-left: 0px;
+						margin-top: -5px;
+					}
+		.cardContent .payLeftColumn .summary{
+			width: 100%;
+			padding: 0;
+			padding-bottom: 28px;
+		}
+			.cardContent .summary input[type="submit"] {
+				float: none;
+				margin: 0 auto;
+				display: block;
+			}
+		.cardContent .payLeftColumn .summary p{
+			width: 240px;
+			margin: 0 auto;
+			display: block;
+			float: none;
+			margin-top: 14px;
+		}
+			.cardContent .payLeftColumn .summary p span{
+				float: right;
+			}
+		.cardContent .summary input[type="submit"] {
+			width: 240px;
+			margin-top: 15px;
+			padding-right: 6px;
+		}
+		.garantie{
+			float: none;
+			margin: auto;
+			margin-top: 20px;
+			padding-left: 6px;
+			padding-right: 0;
+		}
+			.garantie .garant {
+				margin-top: 15px;
+				padding-left: 50px;
+				background-position: 11px -42px;
+			}
+		.epigraph{
+			float: none;
+			margin: auto;
+			border-top: 1px solid #dbdcdc;
+			padding-top: 14px;
+		}
+
+
+
+	.footer{
+		margin-top: 53px;
+		padding-bottom: 21px;
+	}
+		.subscribeInput {
+			padding: 16px 41px 20px;
+		}
+			.subscribeInput .subscribeInputCont{
+				width: 100%;
+			}
+			.subscribeInput input[type="text"] {
+				margin-top: 11px;
+				padding-left: 9px;
+				width: 229px;
+				margin-left: -2px;
+			}
+			.subscribeInput input[type="submit"] {
+				width: 115px;
+				margin-left: -1px;
+			}
+				.subscribeInput input[type="submit"]#femaleButton {
+					background-position: 14px 8px;
+				}
+				.subscribeInput input[type="submit"]#maleButton {
+					background-position: 15px 9px;
+					margin-left: 4px;
+				}
+	.social-expand {
+		padding: 18px 38px 14px;
+	}
+	.footer-menu-expand {
+		padding: 23px 39px 25px;
+	}
+	.social-expand:after, .footer-menu-expand:after {
+		right: 36px;
+	}
+	.footer .full-site-link {
+		padding-left: 38px;
+	}
+	.copyright{
+		margin-left: 39px;
+	}
+		.copyright .copyRSymb{
+			margin-left: 10px;
+		}
+
+		/* оплата наличными */
+	.cashPay .orderRightColumn{
+		margin-top: 19px;
+	}
+	.cashPay .garantie {
+		margin-top: -24px;
+	}
+	.cashPay .epigraph{
+		margin-top: 0;
+	}
+	.cashFooter{
+		margin-top: 46px;
+	}
+	/* оплачено */
+	.payedPage .orderRightColumn {
+		margin-top: 19px;
+	}
+	.payedPage .epigraph{
+		width: 240px;
+		margin-top: -28px;
+		margin-bottom: -8px;
+	}
+	
+}
+
+
+

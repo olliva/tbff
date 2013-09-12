@@ -1,0 +1,171 @@
+﻿.recommended-switcher
+                {
+                    margin: 15px 5px;
+                    font-family: Georgia;
+                    font-size: 0;
+                    white-space: nowrap;
+                }
+        .recommended-switcher li
+                        {
+                            display: inline-block;
+                            z-index: 0;
+                            position: relative;
+                            width: 33.2%;
+                            margin-right: .2%;
+                            border-bottom: 1px solid #d5d5d5;
+                            vertical-align: top;
+                            font-size: 14px;
+                        }
+        .recommended-switcher li:last-child
+                        {
+                            margin-right: 0;
+                        }                                                        
+                .recommended-switcher li:before,
+                .recommended-switcher li:after
+                                {
+                                    content: "";
+                                    position: absolute;
+                                    z-index: 0;
+                                    bottom: 0;
+                                    width: 1px;
+                                    height: 5px;
+                                    background-color: #d5d5d5;
+                                }                
+                .recommended-switcher li:before
+                                {
+                                    left: 0;
+                                }                
+                .recommended-switcher li:after
+                                {
+                                    right: 0;
+                                }                                                
+                .recommended-switcher a
+                                {
+                                    display: block;
+                                    position: relative;
+                                    z-index: 1;
+                                    bottom: -1px;
+                                    margin: 0 -4px;
+                                    border: 1px solid transparent;
+                                    border-bottom: none;
+                                    text-align: center;
+                                    line-height: 38px;
+                                    text-transform: uppercase;
+                                    text-decoration: none;
+                                    color: #9c9c9c;
+                                }                                
+                        .recommended-switcher .female:before,
+                        .recommended-switcher .male:before,
+                        .recommended-switcher .shoes:before
+                                        {
+                                            content: "";
+                                            position: absolute;
+                                            top: 0;
+                                            bottom: 0;
+                                            left: 50%;
+                                            margin: auto 0 auto -63px;
+                                            width: 20px;
+                                            height: 20px;
+                                            background-image: url(../images/icons.png);
+                                            background-repeat: no-repeat;
+                                        }
+                        .recommended-switcher .female:before
+                                        {
+                                            background-position: -400px 0;
+                                        }                                        
+                        .recommended-switcher .male:before
+                                        {
+                                            background-position: -500px 0;
+                                        }
+                        .recommended-switcher .shoes:before
+                                        {
+                                            top: 6px !important;
+                                            margin-left: -53px;
+                                            width: 25px;
+                                            background-position: -400px -200px;
+                                        }                                        
+                        .recommended-switcher .active .female:before
+                                        {
+                                            background-position: -402px -100px;
+                                        }                                        
+                        .recommended-switcher .active .male:before
+                                        {
+                                            background-position: -499px -99px;
+                                        }                           
+                        .recommended-switcher .active .shoes:before
+                                        {
+                                            background-position: -500px -200px;
+                                        }                                                                                             
+        .recommended-switcher .active
+                        {
+                            z-index: 1;
+                            border-bottom-color: #fff;
+                        }                                                        
+        .recommended-switcher .active a
+                        {
+                            border-color: #d5d5d5;
+                            background-color: #fff;
+                        }                                                                                
+.recommended-content-wrap
+                {
+                    display: none;
+                    width: 100%;
+                    overflow: hidden;
+                }
+#rc-all     
+                {
+                    display: block;
+                }                
+.recommended-content
+                {
+                    position: relative;
+                    margin: 15px 30px 75px 0;
+                    padding-top: 2px !important;
+                    font-size: 0;
+                    white-space: nowrap;
+                }
+        .recommended-content .catalog-item
+                        {
+                            margin: 0 32px;
+                            font-size: 14px;
+                            line-height: 1.3em;
+                            white-space: normal;
+                        }                
+
+
+@media screen and (max-width: 1255px) {
+        .recommended-content .catalog-item
+                        {
+                            margin: 0 28px;
+                        }                
+}   
+
+
+@media screen and (max-width: 767px) {
+        .recommended-content 
+                        {
+                            margin-left: 5px;
+                        }                    
+}   
+
+@media screen and (max-width: 599px) {
+        .recommended-switcher a span
+                        {
+                            display: inline-block;
+                            width: 1px;
+                            visibility: hidden;
+                        }   
+        .recommended-switcher .female:before,
+        .recommended-switcher .male:before,
+        .recommended-switcher .shoes:before
+                        {
+                            top: 10px;
+                            left: 50%;
+                            margin: 0 0 0 -10px !important;                            
+                        }                        
+        .recommended-content .catalog-item
+                        {
+                            margin: 0 20px;
+                        }                                                
+}   
+

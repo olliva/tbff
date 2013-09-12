@@ -1,0 +1,94 @@
+﻿						.product .history
+										{
+											float: left;
+											width: 475px;
+											padding-bottom: 40px;
+										}																																		
+								.product .history .block-header
+												{
+													width: 240px;
+												}																				
+						                .product .history-list>div
+						                                {
+															overflow: hidden;	                                    
+						                                }               																										
+										.product .history .list
+														{
+															position: relative;
+															white-space: nowrap;
+														}
+												.product .history .catalog-item
+																{
+																	margin: 5px 45px 15px 22px;
+																	white-space: normal;
+																}										
+								.product .history .call-to-action
+												{
+													margin-left: 22px;
+												}																						
+
+@media screen and (max-width: 767px) {
+	.product .history
+					{
+						width: 230px;
+					}
+	.product .history .block-header
+					{
+						width: auto;
+					}					
+
+}												
+@media screen and (min-width: 600px) {
+	.product .history .nr-prev,
+	.product .history .nr-next,
+	.product .history .nr-counter
+					{
+						display: none;
+					}
+}												
+@media screen and (max-width: 599px) {
+	.product .history
+					{
+						float: none;
+						width: auto;
+						margin-bottom: 50px;
+					}
+			.product .history .block-header
+							{
+								width: 240px;
+							}										
+			.product .history-list
+							{
+								position: relative;
+								width: 100%;
+							}					
+	                .product .history-list>div
+	                                {
+	                                    margin: 0 auto;
+	                                    width: 183px;
+	                                    padding: 0 3px;
+	                                }               
+			                .history-list  .list
+	                                        {
+	                                            position: relative;
+	                                            white-space: nowrap;
+	                                        }           					
+			                .product .history-list  .catalog-item
+	                                        {
+	                                            margin: 2px 20px 0 0;
+	                                        }           			
+	                .product .history .nr-prev,
+	                .product .history .nr-next
+	                                {
+	                                	top: 105px;
+	                                    bottom: auto;
+	                                }                           	                                        				                                        
+	                .product .history .nr-counter
+	                                {
+	                                	position: absolute;
+	                                    top: 250px;
+	                                    left: 260px;
+	                                    font-size: 115%;
+	                                    color: #8e8e8e;
+	                                }                           	                                        				                                        	                                
+}														                                                

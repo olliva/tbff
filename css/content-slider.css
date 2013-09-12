@@ -1,0 +1,101 @@
+﻿		.banners
+						{
+							position: relative;
+							margin: 0 auto 35px auto;
+							width: 720px;
+						}
+		    	.banners>div
+		    	    			{
+		    	    				margin: 0 auto;
+		                            overflow: hidden;
+		                            width: 100%;
+		                            box-shadow: 0 1px 3px rgba(0,0,0,.2);
+		                        }               
+		        		.banners .list     
+		        						{
+		                                    position: relative;
+		                                    white-space: nowrap;
+		                                }           
+		        				.banners .list li
+		        						        {
+		                                            display: inline-block;
+		                                            position: relative;
+		                                            width: 100%;
+		                                            vertical-align: top;
+		                                        }
+		        				.banners .list img
+		        						        {
+		        						        	display: block;
+		                                            max-width: 100%;
+		                                        }		                                        
+			    .banners .nr-prev,
+			    .banners .nr-next
+		    					{
+		                            position: absolute;
+		                            z-index: 20;
+		                            top: 0;
+		                            bottom: 0;
+		                            width: 50px;
+		                            cursor: pointer;
+		                        }                           
+		    	.banners .nr-prev
+		    				    {
+		                            left: 0;
+		                        }
+		    	.banners .nr-next
+		    				    {
+		                            right: 0;
+		                        }
+					    .banners .nr-prev:after,
+					    .banners .nr-next:after
+				    					{
+				    						content: "";
+				                            position: absolute;
+				                            top: 0;
+				                            bottom: 0;
+				                            margin: auto;
+				                            width: 25px;
+				                            height: 50px;
+				                            border-style: solid;
+				                            border-color: rgba(0,0,0,.5);
+				                            background-color: #fff;
+				                            background-image: url(../images/icons.png);
+				                            background-repeat: no-repeat;
+				                        }                                                   
+				    	.banners .nr-prev:after
+				    					{
+				                            left: 0;
+				                            border-width: 1px 1px 1px 0;
+				                            border-radius: 0 50px 50px 0;
+				                            background-position: -795px -80px;
+				                        }
+				    	.banners .nr-next:after
+				    					{
+				                            right: 0;
+				                            border-width: 1px 0 1px 1px;
+				                            border-radius: 50px 0 0 50px;
+				                            background-position: -785px 20px;
+				                        }		                        
+
+
+@media screen and (max-width: 1015px) {
+	.banners
+			{
+				margin-top: 5px;
+			}						
+
+}
+
+@media screen and (max-width: 767px) {
+	.banners
+			{
+				width: 480px;
+			}						
+}
+
+@media screen and (max-width: 599px) {
+	.banners
+			{
+				width: 240px;
+			}						
+}

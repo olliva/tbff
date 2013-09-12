@@ -1,0 +1,84 @@
+.reserveTime .reserve_yellow {
+	width: 185px;
+	background: #fff5be;
+	padding: 4px;
+	padding-left: 15px !important;
+	font-size: 13px;
+	vertical-align: middle;
+	text-align: left;
+	float: left;
+	margin-bottom: 15px;
+}
+	.reserveTime .reserve_yellow input {
+		width: 50px;
+		height: 18px;
+		padding-left: 2px;
+		margin-left: 10px;
+		letter-spacing: 2px;
+		font-weight: bold;
+		font-size: 14px;
+	}
+	.reserveTime .reserve_qm{
+		display: block;
+		float: left;
+		margin-top: 7px;
+		margin-left: 3px;
+		font: normal 11px/14px Tahoma,sans-serif;
+	}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.askForReserveTime{
+ 	margin-bottom: 15px;
+ }
+	.askForReserveTime img {
+		margin-right: 6px;
+		vertical-align: middle;
+	}
+
+	.askForReserveTime .reserve_underline {
+		border-bottom: 1px solid black;
+		font: 14px/15px Tahoma;
+		cursor: pointer;
+	}
+	@media screen and (min-width: 600px){
+		.photo img {
+			min-height: 0px;
+		}
+
+		.cart-added .dl {
+			margin: 10px 0 15px 0;
+		}
+	}
+@media screen and (max-width: 599px){
+	.reserveTime .reserve_yellow {
+		width: 162px;
+		text-align: center;
+		padding-left: 4px !important;
+	}
+	.addPopup .reserve_yellow{
+		width: 152px;
+	}
+	.reserveTime .reserve_yellow input{
+		display: block;
+		margin: 0 auto;
+		margin-top: 3px;
+	}
+	.photo img {
+		min-height: 0px;
+	}
+}
+
+
+
+
+
+
+
+
+

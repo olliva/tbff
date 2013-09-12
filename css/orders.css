@@ -1,0 +1,525 @@
+
+
+
+.smallTableHeader{
+	display: none;
+}
+.cart .back-to {
+	position: absolute;
+	
+}
+body .back-to {
+	display: inline-block;
+	position: absolute;
+	left: 39px;
+		top: 16px;
+	margin-right: 15px;
+	padding: 2px 5px 4px 3px;
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+	background-color: #ededed;
+	vertical-align: top;
+	font: bold 11px/29px Tahoma, Arial, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+	cursor: pointer;
+}
+
+
+.ordersContainer{
+	width: 720px;
+	margin: 0 auto;
+	font: normal 14px/21px Tahoma;
+	padding-top: 10px;
+}
+	.ordersContainer *{
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		
+	}
+	.ordersContainer .acceptedOrder{
+		float: left;
+		width: 380px;
+		
+	}
+		.ordersContainer .payHeader{
+			margin-bottom: 47px;
+		}
+		.ordersContainer .acceptedOrder h2{
+			margin: 0;
+			font: bold 14px/21px Tahoma;
+			margin-bottom: 19px;
+		}
+	.ordersContainer .attentionMessage{
+		float: right;
+		width: 229px;
+		border-left: 1px solid #d5d5d5;
+		color: #7f7f7f;
+		margin-top: 7px;
+		padding: 0 12px 4px 20px;
+		
+		
+	}
+		.ordersContainer .attentionMessage img{
+			display: block;
+			margin: 6px 0px 11px -3px;
+			
+		}
+
+.tablePart{
+	width: 720px;
+	margin: 0 auto;
+	font: normal 14px/21px Tahoma;
+	margin-top: 26px;
+	margin-bottom: 65px;
+}
+	.tablePart *{
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		
+	}
+	.tablePart .tableHeader{
+		background: #eaeaea;
+	}
+	.tablePart .column{
+		float: left;
+		font: bold 11px/21px Tahoma;
+		text-transform: uppercase;
+		color: #757575;
+		padding-left: 7px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		letter-spacing: 1px;
+	}
+	.tablePart .firstCol{
+		width: 73px;
+	}
+	.tablePart .secondCol{
+		width: 237px;
+	}
+	.tablePart .thirdCol{
+		width: 173px;
+	}
+	.tablePart .fourthCol{
+		width: 149px;
+	}
+		.tablePart .fourthCol .medium{
+			display: none;
+		}
+	.tablePart .fifthCol{
+		width: 88px;
+	}
+	.tablePart .tableLine .column{
+		text-transform: none;
+		font: normal 14px/16px Tahoma;
+		color: black;
+		letter-spacing: 0px;
+	}
+	.tablePart .tableLineContent + .tableLineContent{
+		border-top: 1px solid #e5e5e5;
+	}
+	.tablePart .tableLine{
+		padding: 8px 0 10px 0;
+	}
+		.tablePart .tableLine .notActive{
+			display: none;
+		}
+		.tablePart .tableLine a{
+			color: #922f89;
+			border-bottom: 1px dotted #c896c3;
+			text-decoration: none;
+			position: relative;
+			
+		}
+			.tablePart .tableLine a:hover{
+				text-decoration: none;
+			}
+			.tablePart .tableLine a img{
+				position: absolute;
+				right: -9px;
+				top: 6px;
+			}
+			.tablePart .tableLine a.opened img{
+				right: -16px;
+				top: 8px;
+			}
+	.tablePart .openedLine{
+		background: #ffffe2;
+	}
+
+
+
+	.tableLineContent .orderList{
+			width: 456px;
+			float: left;
+			border-bottom: 1px solid #d5d5d5;
+			padding-bottom: 1px;
+			margin-top: 33px;
+			margin-left: 9px;
+			margin-bottom: 10px;
+		}
+		.tableLineContent .orderDescription{
+			display: none;
+		}
+		.tableLineContent .orderDescription.show{
+			display: block;
+		}
+			.tableLineContent .orderList h3{
+				font: bold 14px Tahoma;
+			}
+			.tableLineContent .orderList .orderCard{
+				padding: 14px 0 16px;
+				border-bottom: 1px solid #d5d5d5;
+			}
+			.tableLineContent .orderList .orderCard + .orderCard{
+				padding: 17px 0 18px;
+			}
+				.tableLineContent .orderList .orderCard img{
+					float: left;
+					-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.22);
+					        box-shadow: 0px 1px 3px rgba(0,0,0,0.22);
+					display: block;
+					margin-right: 54px;
+				}
+				.tableLineContent .orderList .orderCard .cardDescription{
+					margin-right: 50px;
+				}
+					.tableLineContent .orderList .orderCard .cardDescription h3{
+						font: normal 14px/21px Tahoma;
+						margin-top: -6px;
+						margin-bottom: 9px;
+					}
+					.tableLineContent .orderList .orderCard .cardDescription p{
+						font: normal 14px/21px Tahoma;
+					}
+						.tableLineContent .orderList .orderCard .cardDescription p span{
+							font: normal 11px/17px Tahoma;
+							text-transform: uppercase;
+							color: #989898;
+							width: 65px;
+							display: block;
+							float: left;
+							margin-top: 4px;
+							letter-spacing: 1px;
+						}
+
+
+	.tableLineContent .payDescription{
+		width: 230px;
+		float: right;
+	}
+		.tableLineContent .payDescription h2{
+			font: bold 14px/21px Tahoma;
+			margin-top: 31px;
+			margin-bottom: 8px;
+		}
+			.tableLineContent .payDescription h2.delivery{
+				margin-top: 23px;
+				margin-bottom: 10px;
+			}
+			.tableLineContent .payDescription h2.address{
+				margin-top: 35px;
+				margin-bottom: 7px;
+			}
+			.tableLineContent .payDescription p{
+				font: normal 14px/18px Tahoma;
+				margin-bottom: 3px;
+				text-align: right;
+				padding-right: 11px;
+			}
+		.tableLineContent .payDescription p.name{
+			width: 130px;
+			display: block;
+			float: left;
+			text-align: left;
+			padding-right: 0;
+		}
+		.tableLineContent .payDescription p.fullString{
+			text-align: left;
+		}
+		.tableLineContent .payDescription .ordersForm{
+			margin-top: 23px;
+			border-top: 1px solid #d5d5d5;
+			padding-top: 9px;
+			margin-bottom: 20px;
+		}
+		.tableLineContent .payDescription .ordersForm input[type="submit"]{
+			padding-right: 17px;
+		}
+
+
+.submitUnderOrder{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+	
+	body .back-to{
+		left: 60px;
+	}
+
+	.ordersContainer{
+		width: 480px;
+	}
+		.ordersContainer .acceptedOrder{
+			width: 230px;
+		}
+		.ordersContainer .attentionMessage{
+			margin-top: 3px;
+			width: 219px;
+			padding: 0 2px 23px 20px;
+		}
+			.ordersContainer .attentionMessage img{
+				margin: 12px 0px 10px -3px;
+			}
+
+	.ordersContainer .acceptedOrder h2 {
+		margin-bottom: 17px;
+	}
+	.tablePart{
+		width: 600px;
+		margin-top: 25px;
+		margin-bottom: 0;
+	}
+		.tablePart .firstCol{
+			width: 118px;
+			padding-left: 59px;
+		}
+		.tablePart .secondCol{
+			width: 162px;
+		}
+		.tablePart .thirdCol{
+			width: 85px;
+		}
+		.tablePart .fourthCol{
+			width: 97px;
+		}
+			.tablePart .fourthCol .smallAndBig{
+				display: none;
+			}
+			.tablePart .fourthCol .medium{
+				display: block;
+			}
+
+
+
+	
+	.tableLineContent .orderList{
+			margin-top: 36px;
+			width: 242px;
+			margin-left: 60px;
+		}
+			.tableLineContent .orderList .orderCard {
+				padding-top: 16px;
+				width: 242px;
+				padding-bottom: 25px;
+			}
+			.tableLineContent .orderList .orderCard + .orderCard{
+				padding: 19px 0 26px;
+			}
+				.tableLineContent .orderList h3{
+					padding-left: 10px;
+				}
+				.tableLineContent .orderList .orderCard img{
+					width: 52px;
+					height: 80px;
+					margin-left: 11px;
+					margin-right: 19px;
+				}
+				.tableLineContent .orderList .orderCard .cardDescription{
+					float: left;
+					display: block;
+					width: 158px;
+					margin-right: 0;
+				}
+					.tableLineContent .orderList .orderCard .cardDescription h3 {
+						padding-left: 0;
+						margin-left: 0px;
+						margin-top: -5px;
+					}
+
+
+	.tableLineContent .payDescription p {
+		padding-right: 0;
+	}
+
+	.tableLineContent .payDescription {
+		width: 218px;
+		margin-right: 60px;
+		margin-top: 5px;
+	}
+
+	.cashFooter{
+		margin-top: 42px;
+	}
+
+}
+
+
+@media screen and (max-width: 599px){
+	
+	body .back-to{
+		position: absolute;
+		left: 39px;
+		top: 16px;
+	}
+	.ordersContainer .payHeader{
+		padding-left: 44px;
+	}
+
+	.tablePart .fourthCol .smallAndBig{
+		display: block;
+	}
+	.tablePart .fourthCol .medium{
+		display: none;
+	}
+
+
+
+	.ordersContainer{
+		width: 240px;
+	}
+		.ordersContainer .payHeade{
+			padding-left: 43px;
+		}
+		.ordersContainer .attentionMessage {
+			border-left: 0;
+			padding: 0;
+			border-top: 1px solid #d5d5d5;
+			float: left;
+			width: 240px;
+			margin-top: 11px;
+			position: relative;
+			padding-top: 9px;
+			padding-left: 1px;
+		}
+			.ordersContainer .attentionMessage img{
+				position: absolute;
+				left: -24px;
+				top: 31px;
+			}
+	.tableHeader{
+		display: none;
+	}
+	.tablePart {
+		width: 100%;
+		margin-top: 17px;
+	}
+		.tablePart .tableLine {
+			padding: 11px 0 18px 0;
+		}
+			.tablePart .tableLine .column{
+				float: none;
+				width: 320px;
+				padding-left: 0;
+				padding-left: 40px;
+				font: normal 14px/18px Tahoma;
+			}
+			.tablePart .tableLine .firstCol{
+				padding-bottom: 11px;
+			}
+				.tablePart .tableLine .firstCol .smallTableHeader {
+					margin-top: -4px;
+				}
+			.tablePart .tableLine .secondCol{
+				padding-bottom: 2px;
+			}
+			.tablePart .tableLine .thirdCol{
+				padding-bottom: 15px;
+			}
+			.tablePart .tableLine .fifthCol{
+				padding-top: 11px;
+				padding-bottom: 3px;
+			}
+			.tablePart .tableLine .smallTableHeader{
+				display: block;
+				float: left;
+				width: 100px;
+				font: bold 11px/21px Tahoma;
+				text-transform: uppercase;
+				color: #757575;
+				letter-spacing: 1px;
+			}
+	.smallTableColumnContent{
+		display: block;
+		width: 140px;
+		margin-left: 100px;
+	}
+	.tablePart .tableLineContent{
+		border-top: 1px solid #e5e5e5;
+	}
+	.tablePart .tableLine .firstCol .smallTableColumnContent{
+		font-weight: bold;
+	}
+	.tablePart .tableLine .fifthCol {
+		margin-left: 100px;
+		width: 140px;
+	}
+		.tablePart .tableLine a img {
+			left: 69px;
+		}
+		.tablePart .tableLine a.opened img{
+			left: 65px;
+		}
+
+	.tableLineContent .payDescription {
+		margin-top: -14px;
+		width: 240px;
+		float: none;
+		margin-left: 40px;
+	}
+		.tableLineContent .payDescription h2{
+			margin-bottom: 9px;
+		}
+		.tableLineContent .orderList .orderCard {
+			width: 240px;
+		}
+
+	.tableLineContent .payDescription .ordersForm{
+		margin-top: 24px;
+	}
+		.tableLineContent .payDescription .ordersForm input[type="submit"]{
+			padding-right: 7px;
+		}
+
+	.tableLineContent .orderList{
+		float: none;
+		width: 240px;
+		margin-left: 40px;
+		margin-top: 29px;
+	}
+
+	.submitUnderOrder{
+		display: block;
+		width: 240px;
+		margin-left: 40px;
+		margin-top: 21px;
+		margin-bottom: 20px;
+	}
+	.cashFooter{
+		margin-top: 23px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
