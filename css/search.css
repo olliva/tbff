@@ -10,7 +10,7 @@
 	}
 	.searchPage .searchInput img{
 		margin-bottom: -6px;
-		z-index: 3;
+		z-index: 1233;
 		position: relative;
 	}
 	.searchPage .searchInput input[type="text"]{
@@ -20,7 +20,7 @@
 		width: 330px;
 		vertical-align: top;
 		position: relative;
-		z-index: 2;
+		z-index: 1;
 		height: 31px;
 		margin-top: 2px;
 		 -webkit-appearance: none;
