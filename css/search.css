@@ -21,11 +21,17 @@
 		vertical-align: top;
 		position: relative;
 		z-index: 0;
-		height: 31px;
+		height: 35px;
 		margin-top: 2px;
 		 -webkit-appearance: none;
 		border-radius: 0;
+		display: inline-block;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
 	}
+	
+
 	.searchPage .searchInput input[type="submit"]{
 		width: 35px;
 		height: 35px;
@@ -38,6 +44,7 @@
 		 -webkit-appearance: none;
 		border-radius: 0;
 		font: normal 14px/31px Tahoma;
+		display: inline-block;
 	
 	}
 .searchResult{
